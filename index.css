@@ -13,3 +13,8 @@ body {
 #titleHome h2 {
 	font-family: 'Dancing Script', cursive; 
 }
+
+
+#channelTopics {
+	table-layout: none;
+}
