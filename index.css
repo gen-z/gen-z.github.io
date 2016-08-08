@@ -1,11 +1,13 @@
 body {
-	background-color:darkblue;
-	text-decoration-color: white;
+	background-color:rgb(74, 206, 206);
 }
-p {
+
+#titleHome {
+	text-align: center;
+}
+#titleHome h1 {
 	font-family: 'Bungee Inline', cursive;
 }
-h1 {
-	font-family: 'Dancing Script', cursive;
+#titleHome h2 {
+	font-family: 'Dancing Script', cursive; 
 }
-/*	font-family: 'Raleway', sans-serif; */
