@@ -16,6 +16,9 @@ body {
 
 
 #channelTopics {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-size: 40px;
 	list-style-type: none;
 	text-align: center;
 	margin:0;
