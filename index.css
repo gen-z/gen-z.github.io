@@ -29,6 +29,8 @@ body {
 #channelTopics a:link {
 	text-decoration: none;
 	color:white;
-	
-	
+}
+
+#channelTopics a:hover {
+	text-decoration: underline;
 }
