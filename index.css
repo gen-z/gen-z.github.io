@@ -16,6 +16,11 @@ body {
 	font-size: 60px;
 }
 
+.homeslideshow {
+	width: 100%;
+	height: 50px;
+	
+}
 
 #channelTopics {
 	font-family: 'Raleway', sans-serif;
