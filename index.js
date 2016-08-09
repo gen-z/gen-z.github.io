@@ -1,4 +1,4 @@
-srcLinks = ["http://fitnessandhealthadvisor.com/wp-content/uploads/2013/05/bananas1.jpeg","http://media.mercola.com/assets/images/food-facts/banana-fb.jpg", "https://upload.wikimedia.org/wikipedia/commons/4/44/Bananas_white_background_DS.jpg", "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bananas.jpg"];
+srcLinks = ["https://secure.static.tumblr.com/dc40823055c62742b840a1f36fe3a059/rse8v7p/Ckfnrb4gf/tumblr_static__640_v2.gif","http://25.media.tumblr.com/99cbcdc1b112fa1fad105fd5bcec77eb/tumblr_mz3r7taEcg1rqess5o1_500.gif", "https://media4.giphy.com/media/dh6120qvBRyda/200_s.gif"];
 $("#circle1").click( function(){
 	$("#picshow")
 		.fadeOut(1000, function(){
