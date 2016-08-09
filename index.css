@@ -31,11 +31,7 @@ body {
 	color:white;
 }
 
-#channelTopics a:after {
+#channelTopics a:hover {
 	text-decoration: underline;
 	transition: 1s;
-}
-
-#channelTopics a:hover {
-	width: 100%;
 }
