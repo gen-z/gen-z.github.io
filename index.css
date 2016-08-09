@@ -26,6 +26,8 @@ body {
 }
 #channelTopics li { display:inline;}
 
-#channelTopics a {
+#channelTopics a:link {
+	text-decoration: none;
+	
 	
 }
