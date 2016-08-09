@@ -31,6 +31,7 @@ body {
 	color:white;
 }
 
-#channelTopics a:hover {
+#channelTopics a:hover:after {
 	text-decoration: underline;
+	transition: 1s;
 }
