@@ -3,7 +3,8 @@ $(".homeslideshow").click( function(){
 		opacity: 0
 	}, 1500);
 	$("#picshow").attr("src", "http://media.mercola.com/assets/images/food-facts/banana-fb.jpg");
-	$("#picshow").animate({
+	
+	$("#picshow").wait(2sec).animate({
 		opacity: 100
 	}, 1500);
 });
