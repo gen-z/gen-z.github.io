@@ -1,6 +1,6 @@
 $(".homeslideshow").click( function(){
 	$("#picshow").animate({
-		console.log("okay");
+		console.log("okay"),
 		opacity: 0
 	}, 1500);
 	$("#picshow").delay(3000);
