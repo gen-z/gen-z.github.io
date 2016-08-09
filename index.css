@@ -26,12 +26,16 @@ body {
 }
 #channelTopics li { display:inline;}
 
-#channelTopics a:link {
+#channelTopics a {
 	text-decoration: none;
 	color:white;
 }
 
-#channelTopics a:hover {
+#channelTopics a:after {
 	text-decoration: underline;
 	transition: 1s;
+}
+
+#channelTopics a:hover {
+	width: 100%;
 }
