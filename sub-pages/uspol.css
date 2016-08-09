@@ -1,3 +1,20 @@
-body {
-	background-color:#a6fff6;
+#channelTopics {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-size: 40px;
+	list-style-type: none;
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+#channelTopics li { display:inline;}
+
+#channelTopics a {
+	text-decoration: none;
+	color:white;
+}
+
+#channelTopics a:hover {
+	text-decoration: underline;
+	transition: 1s;
 }
