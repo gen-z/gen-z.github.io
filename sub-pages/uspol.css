@@ -1,20 +1,32 @@
-#channelTopics {
+body {
 	font-family: 'Raleway', sans-serif;
-	color:white;
-	font-size: 40px;
-	list-style-type: none;
+	background-color:#a6fff6;
 	text-align: center;
-	margin:0;
-	padding:0;
+	color:white;
 }
-#channelTopics li { display:inline;}
 
-#channelTopics a {
+ul {
+	list-style-type: none;
+	font-size: 40px;
+}
+
+#channeltags li {
+	padding: 20px;
+	display: inline;
+}
+
+a {
 	text-decoration: none;
 	color:white;
 }
 
-#channelTopics a:hover {
+a:hover {
 	text-decoration: underline;
 	transition: 1s;
 }
+
+#channelTopics {
+	margin:0;
+	padding:0;
+}
+#channelTopics li { display:inline;}
