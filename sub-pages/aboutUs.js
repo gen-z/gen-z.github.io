@@ -1,6 +1,6 @@
 $("#kevin").click( function(){
-	$("#kevin").css("opacity","100%");
-	$("#joey").css("opacity","50%");
+	$("#kevin").css("opacity","1.0");
+	$("#joey").css("opacity","0.5");
 	$("#founderbio")
 		.fadeOut(1000, function(){
 			$("#founderpic").attr("src", "http://coolwildlife.com/wp-content/uploads/galleries/post-1593/Brown%20Bear%20Picture%20001.jpg");
@@ -11,8 +11,8 @@ $("#kevin").click( function(){
 });
 
 $("#joey").click( function(){
-	$("#joey").css("opacity","100%");
-	$("#kevin").css("opacity","50%");
+	$("#joey").css("opacity","1.0");
+	$("#kevin").css("opacity","0.5");
 	$("#founderbio")
 		.fadeOut(1000, function(){
 			$("#founderpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
