@@ -1,5 +1,32 @@
 body {
-	background-color:#a6fff6;
+	background-color:#99E1E8;
 	text-align: center;
 	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+p {
+	font-size: 40px;
+}
+
+.profpic {
+	width: 100px;
+	padding: 10px;
+}
+
+#founderbio {
+	background-color:white;
+	text-align: left;
+	color: black;
+}
+#founderpic {
+	width:300px;
+	float:right;
+	padding: 10px;
+}
+#foundertext {
+	font-size: 30px;
 }
