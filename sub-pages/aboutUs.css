@@ -15,6 +15,7 @@ p {
 .profpic {
 	width: 100px;
 	padding: 10px;
+	opacity: 50%;
 }
 
 #founderbio {
