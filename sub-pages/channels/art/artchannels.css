@@ -13,6 +13,10 @@ h1 {
 #title {
     text-align:center;
 }
+
+#article p {
+	font-size: 20px;
+}
 h2 { text-align:center; }
 #messageBox {
     text-align:left;
