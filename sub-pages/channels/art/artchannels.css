@@ -1,6 +1,9 @@
 body {
 	background-color:#a6fff6;
 }
+#article {
+	background-color:white;
+}
 #title {
     text-align:center;
 }
