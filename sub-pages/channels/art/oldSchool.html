@@ -16,11 +16,6 @@ Why do we use it?
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 </p>
 	</div> 
-<div id= title><div id= input>
-        <button id=login>Login </button>
-    </div>
-    <p>Username: <input type = "text" id="Username"> </p>
-    <h1>#Comments</h1>
     <h1>Discussion</h1>
     </div>
     <div id= "chatroom">
@@ -31,10 +26,26 @@ It is a long established fact that a reader will be distracted by the readable c
     </div>
     <div id = input>
         <h4>
-            <input type="text" id= "message" >
+            <input placeholder='Comment' type="text" id= "messages" >
+			 <input placeholder='Name' type='text' id='name'>
         </h4>
-        <button id = "button">Send</button>
+        <button id = "js">Send</button>
         </div>
-        <script src="oldSchool.js"></script>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="oldSchool.js"></script>
 </body>
 </html> 
