@@ -2,6 +2,9 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	background-color:#a6fff6;
 }
+h1 {
+	font-size: 40px;
+}
 #article {
 	background-color:white;
 	padding: 10px;
