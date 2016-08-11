@@ -1,8 +1,10 @@
 body {
+	font-family: 'Open Sans Condensed', sans-serif;
 	background-color:#a6fff6;
 }
 #article {
 	background-color:white;
+	margin: 10px;
 }
 #title {
     text-align:center;
