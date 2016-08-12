@@ -1,4 +1,4 @@
-var database = firebase.database().ref('channels/undergound/mostUnderated');
+var database = firebase.database().ref('channels/undergound/underRated');
 //The callback function defined will happen one time
 //"snapshot" is a snapshot of EVERYTHING in the database at the time the function's called
 database.once("value", function(snapshot) {
@@ -13,7 +13,7 @@ database.once("value", function(snapshot) {
 });//end of outer function
 //////////////////////////////////////////////////////////////////////////////////////
 $("#js").click(function() {  
-	var database = firebase.database().ref('channels/art/mostUnderated');
+	var database = firebase.database().ref('channels/art/underRated');
 	var name = $('#name').val();
 	var message = $("#messages").val();
 	database.push({
