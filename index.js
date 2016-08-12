@@ -33,8 +33,7 @@ $("#circle4").click( function(){
 		.fadeIn(1000);
 });
 
-if(i<4) {
-	setTimeout(function() {
+	window.setInterval(function() {
 		   if(i>3){
 				i += 1;
 			   	$("#picshow")
@@ -52,4 +51,3 @@ if(i<4) {
 		.fadeIn(1000);
 			}
 		   }, 5000);
-};
