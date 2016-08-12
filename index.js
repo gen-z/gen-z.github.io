@@ -6,6 +6,7 @@ $("#circle1").click( function(){
 	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
+			$("#slideshowName").html(srcText[i]);
 	})
 		.fadeIn(1000);
 });
@@ -14,6 +15,7 @@ $("#circle2").click( function(){
 	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
+			$("#slideshowName").html(srcText[i]);
 	})
 		.fadeIn(1000);
 });
@@ -22,6 +24,7 @@ $("#circle3").click( function(){
 	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
+			$("#slideshowName").html(srcText[i]);
 	})
 		.fadeIn(1000);
 });
@@ -30,6 +33,7 @@ $("#circle4").click( function(){
 	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
+			$("#slideshowName").html(srcText[i]);
 	})
 		.fadeIn(1000);
 });
@@ -40,6 +44,7 @@ $("#circle4").click( function(){
 			   	$(".homeslideshow")
 					.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
+			$("#slideshowName").html(srcText[i]);
 	})
 		.fadeIn(1000);
 			}
@@ -48,6 +53,7 @@ $("#circle4").click( function(){
 				$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
+			$("#slideshowName").html(srcText[i]);
 	})
 		.fadeIn(1000);
 			}
