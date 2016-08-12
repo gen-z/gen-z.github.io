@@ -35,8 +35,18 @@ $("#circle4").click( function(){
 setTimeout(function() {
 		   if(i>3){
 				i += 1;
+			   	$("#picshow")
+		.fadeOut(1000, function(){
+			$("#picshow").attr("src", srcLinks[i]);
+	})
+		.fadeIn(1000);
 			}
 			else {
 				i=0;
+				$("#picshow")
+		.fadeOut(1000, function(){
+			$("#picshow").attr("src", srcLinks[i]);
+	})
+		.fadeIn(1000);
 			}
 		   }, 5000)
