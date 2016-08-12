@@ -15,7 +15,7 @@ database.once("value", function(snapshot) {
 $("#js").click(function() {  
 	var database = firebase.database().ref('channels/fashion/yeezy');
 	var name = $('#name').val();
-	var message = $("#messages").val(); 
+	var message = $("#messages").val();
 	database.push({
 		'name' : name,
 		'message' : message
