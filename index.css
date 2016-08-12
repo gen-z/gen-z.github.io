@@ -39,6 +39,7 @@ body {
 	width: 20px;
 	position:relative;
 	top: 40%;
+	padding: 5px;
 }
 #circle1 {
 	left: 39%;
