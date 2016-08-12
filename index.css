@@ -26,6 +26,9 @@ body {
 	width:50px;
 	top:30%;
 }
+#right {
+	left:90%;
+}
 .circles {
 	width: 20px;
 	position:relative;
