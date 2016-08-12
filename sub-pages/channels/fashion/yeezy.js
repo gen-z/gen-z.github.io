@@ -15,13 +15,13 @@ database.once("value", function(snapshot) {
 $("#js").click(function() {  
 	var database = firebase.database().ref('channels/fashion/yeezy');
 	var name = $('#name').val();
-	var message = $("#messages").val();
+	var message = $("#messages").val(); 
 	database.push({
 		'name' : name,
 		'message' : message
 	});
 	database.once("child_added", function(dataRow){
-		var row = dataRow.val();
+		var row = dataRow.val(); 
 		$("#messageBox").append("<p>" + row.name + ": " + row.message + "</p>");
 	}
 	);
