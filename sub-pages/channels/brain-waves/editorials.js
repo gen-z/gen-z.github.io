@@ -37,7 +37,7 @@ $("#").each( function()
    this.scrollTop = scrollHeight - this.clientHeight;
 });
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-database = firebase.database().ref('channels/brain-waves/editorials/e2');
+var database = firebase.database().ref('channels/brain-waves/editorials/e2');
 //The callback function defined will happen one time
 //"snapshot" is a snapshot of EVERYTHING in the database at the time the function's called
 database.once("value", function(snapshot) {
@@ -60,7 +60,7 @@ $("#js2").click(function() {
 		'message' : message
 	});
 	database.once("child_added", function(dataRow){
-		var row2 = dataRow.val();
+		var row = dataRow.val();
 		$("#messageBox2").append("<p>" + row.name + ": " + row.message + "</p>");
 	}
 	);
@@ -76,7 +76,7 @@ $("#").each( function()
    this.scrollTop = scrollHeight - this.clientHeight;
 });
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-database = firebase.database().ref('channels/brain-waves/editorials/e3');
+var database = firebase.database().ref('channels/brain-waves/editorials/e3');
 //The callback function defined will happen one time
 //"snapshot" is a snapshot of EVERYTHING in the database at the time the function's called
 database.once("value", function(snapshot) {
@@ -87,6 +87,7 @@ database.once("value", function(snapshot) {
 	 //do stuff with that row
 	 $("#messageBox3").append("<p>" + row.name + ": " + row.message + "</p>");
  });//end of inner function
+
 });//end of outer function
 //////////////////////////////////////////////////////////////////////////////////////
 $("#js3").click(function() {  
@@ -94,8 +95,8 @@ $("#js3").click(function() {
 	var name = $('#name3').val();
 	var message = $("#messages3").val();
 	database.push({
-		'name' : name3,
-		'message' : message3
+		'name' : name,
+		'message' : message
 	});
 	database.once("child_added", function(dataRow){
 		var row = dataRow.val();
