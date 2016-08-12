@@ -38,8 +38,8 @@ $("#circle4").click( function(){
 		   if(i<3){
 				i += 1;
 			   	$(".homeslideshow")
-		.fadeOut(1000, function(){
-			$(".homeslideshow").attr("src", srcLinks[i]);
+					.fadeOut(1000, function(){
+			$("#picshow").attr("src", srcLinks[i]);
 	})
 		.fadeIn(1000);
 			}
@@ -47,7 +47,7 @@ $("#circle4").click( function(){
 				i=0;
 				$(".homeslideshow")
 		.fadeOut(1000, function(){
-			$(".homeslideshow").attr("src", srcLinks[i]);
+			$("#picshow").attr("src", srcLinks[i]);
 	})
 		.fadeIn(1000);
 			}
