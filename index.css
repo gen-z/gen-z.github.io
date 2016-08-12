@@ -29,9 +29,9 @@ body {
 	padding: 5px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
-	position:absolute;
+	position:static;
 	top:35%;
-	left:35%;
+	
 }
 
 .circles {
