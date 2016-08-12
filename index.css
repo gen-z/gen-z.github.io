@@ -17,18 +17,20 @@ body {
 }
 
 #picshow {
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	
 }
+/*
 .arrow {
 	position:absolute;
-	width:50px;
-	top:70%;
+	width:40px;
+	top:;
 }
 #right {
 	left:95%;
 }
+*/
 .circles {
 	width: 20px;
 	position:relative;
