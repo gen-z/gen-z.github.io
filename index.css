@@ -1,5 +1,5 @@
 body {
-	background-color:#1662B7;
+	background-color:black;
 }
 
 #titleHome {
@@ -25,7 +25,7 @@ body {
 }
 #slideshowName {
 	color:white;
-	background-color:darkturquoise;
+	background-color:white;
 	padding: 5px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
