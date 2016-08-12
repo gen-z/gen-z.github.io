@@ -1,4 +1,4 @@
-var database = firebase.database().ref('channels/undergound/underRated');
+var database = firebase.database().ref('channels/underground/underRated');
 //The callback function defined will happen one time
 //"snapshot" is a snapshot of EVERYTHING in the database at the time the function's called
 database.once("value", function(snapshot) {
