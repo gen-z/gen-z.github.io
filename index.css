@@ -22,7 +22,10 @@ body {
 	margin-right: auto;
 	width: 80%;
 	height: 400px;
-	
+}
+#slideshowName {
+	background-color:gray;
+	padding:5px;
 }
 /*
 .arrow {
