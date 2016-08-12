@@ -13,7 +13,7 @@ database.once("value", function(snapshot) {
 });//end of outer function
 //////////////////////////////////////////////////////////////////////////////////////
 $("#js").click(function() {  
-	var database = firebase.database().ref('channels/art/underRated');
+	var database = firebase.database().ref('channels/underground/underRated');
 	var name = $('#name').val();
 	var message = $("#messages").val();
 	database.push({
