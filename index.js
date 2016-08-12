@@ -32,7 +32,9 @@ $("#circle4").click( function(){
 	})
 		.fadeIn(1000);
 });
-setTimeout(function() {
+
+if(i<4) {
+	setTimeout(function() {
 		   if(i>3){
 				i += 1;
 			   	$("#picshow")
@@ -49,4 +51,5 @@ setTimeout(function() {
 	})
 		.fadeIn(1000);
 			}
-		   }, 5000)
+		   }, 5000);
+};
