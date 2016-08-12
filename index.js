@@ -33,7 +33,7 @@ $("#circle4").click( function(){
 		.fadeIn(1000);
 });
 
-if(i<4) {
+while(i<4) {
 	setTimeout(function() {
 		   if(i>3){
 				i += 1;
