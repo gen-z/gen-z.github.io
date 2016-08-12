@@ -44,24 +44,24 @@ database.once("value", function(snapshot) {
 //for each row in the snapshot of the database, do this inner callback function.
 	snapshot.forEach(function(childSnapshot) {
 	 //get the value of one row of the database
-	 var row2 = childSnapshot.val();
+	 var row = childSnapshot.val();
 	 //do stuff with that row
-	 $("#messageBox2").append("<p>" + row2.name + ": " + row2.message + "</p>");
+	 $("#messageBox2").append("<p>" + row.name + ": " + row.message + "</p>");
  });//end of inner function
 
 });//end of outer function
 //////////////////////////////////////////////////////////////////////////////////////
 $("#js2").click(function() {  
 	var database = firebase.database().ref('channels/brain-waves/editorials/e2');
-	var name2 = $('#name2').val();
-	var message2 = $("#messages2").val();
+	var name = $('#name2').val();
+	var message = $("#messages2").val();
 	database.push({
-		'name' : name2,
-		'message' : message2
+		'name' : name,
+		'message' : message
 	});
 	database.once("child_added", function(dataRow){
 		var row2 = dataRow.val();
-		$("#messageBox2").append("<p>" + row2.name + ": " + row2.message + "</p>");
+		$("#messageBox2").append("<p>" + row.name + ": " + row.message + "</p>");
 	}
 	);
 	$("#messages2").val("");
@@ -83,23 +83,23 @@ database.once("value", function(snapshot) {
 //for each row in the snapshot of the database, do this inner callback function.
 	snapshot.forEach(function(childSnapshot) {
 	 //get the value of one row of the database
-	 var row3 = childSnapshot.val();
+	 var row = childSnapshot.val();
 	 //do stuff with that row
-	 $("#messageBox3").append("<p>" + row3.name + ": " + row3.message + "</p>");
+	 $("#messageBox3").append("<p>" + row.name + ": " + row.message + "</p>");
  });//end of inner function
 });//end of outer function
 //////////////////////////////////////////////////////////////////////////////////////
 $("#js3").click(function() {  
 	var database = firebase.database().ref('channels/brain-waves/editorials/e3');
-	var name3 = $('#name3').val();
-	var message3 = $("#messages3").val();
+	var name = $('#name3').val();
+	var message = $("#messages3").val();
 	database.push({
 		'name' : name3,
 		'message' : message3
 	});
 	database.once("child_added", function(dataRow){
-		var row3 = dataRow.val();
-		$("#messageBox3").append("<p>" + row3.name + ": " + row3.message + "</p>");
+		var row = dataRow.val();
+		$("#messageBox3").append("<p>" + row.name + ": " + row.message + "</p>");
 	}
 	);
 	$("#messages3").val("");
