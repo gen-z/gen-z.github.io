@@ -3,7 +3,7 @@ srcLinks = ["https://secure.static.tumblr.com/dc40823055c62742b840a1f36fe3a059/r
 
 $("#circle1").click( function(){
 	i=0;
-	$("#picshow")
+	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
 	})
@@ -11,7 +11,7 @@ $("#circle1").click( function(){
 });
 $("#circle2").click( function(){
 	i = 1;
-	$("#picshow")
+	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
 	})
@@ -19,7 +19,7 @@ $("#circle2").click( function(){
 });
 $("#circle3").click( function(){
 	i=2;
-	$("#picshow")
+	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
 	})
@@ -27,7 +27,7 @@ $("#circle3").click( function(){
 });
 $("#circle4").click( function(){
 	i=3;
-	$("#picshow")
+	$(".homeslideshow")
 		.fadeOut(1000, function(){
 			$("#picshow").attr("src", srcLinks[i]);
 	})
@@ -37,17 +37,17 @@ $("#circle4").click( function(){
 	window.setInterval(function() {
 		   if(i<3){
 				i += 1;
-			   	$("#picshow")
+			   	$(".homeslideshow")
 		.fadeOut(1000, function(){
-			$("#picshow").attr("src", srcLinks[i]);
+			$(".homeslideshow").attr("src", srcLinks[i]);
 	})
 		.fadeIn(1000);
 			}
 			else {
 				i=0;
-				$("#picshow")
+				$(".homeslideshow")
 		.fadeOut(1000, function(){
-			$("#picshow").attr("src", srcLinks[i]);
+			$(".homeslideshow").attr("src", srcLinks[i]);
 	})
 		.fadeIn(1000);
 			}
