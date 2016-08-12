@@ -21,7 +21,11 @@ body {
 	height: 300px;
 	
 }
-
+.arrow {
+	position:absolute;
+	width:20px;
+	top:30%;
+}
 .circles {
 	width: 20px;
 	position:relative;
