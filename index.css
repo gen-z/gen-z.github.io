@@ -17,8 +17,9 @@ body {
 }
 
 #picshow {
+	text-align:center;
 	width: 80%;
-	height: 300px;
+	height: 400px;
 	
 }
 /*
