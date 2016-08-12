@@ -30,18 +30,14 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
 	position:absolute;
+	align-content:center;
+	
 	
 }
-/*
-.arrow {
-	position:absolute;
-	width:40px;
-	top:;
+.channelLink a:hover {
+	text-decoration: underline;
+	transition: 1s;
 }
-#right {
-	left:95%;
-}
-*/
 .circles {
 	width: 20px;
 	position:relative;
