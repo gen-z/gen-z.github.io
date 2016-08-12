@@ -37,7 +37,7 @@ $("#").each( function()
    this.scrollTop = scrollHeight - this.clientHeight;
 });
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-var database = firebase.database().ref('channels/brain-waves/editorials/e2');
+database = firebase.database().ref('channels/brain-waves/editorials/e2');
 //The callback function defined will happen one time
 //"snapshot" is a snapshot of EVERYTHING in the database at the time the function's called
 database.once("value", function(snapshot) {
@@ -76,7 +76,7 @@ $("#").each( function()
    this.scrollTop = scrollHeight - this.clientHeight;
 });
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-var database = firebase.database().ref('channels/brain-waves/editorials/e3');
+database = firebase.database().ref('channels/brain-waves/editorials/e3');
 //The callback function defined will happen one time
 //"snapshot" is a snapshot of EVERYTHING in the database at the time the function's called
 database.once("value", function(snapshot) {
