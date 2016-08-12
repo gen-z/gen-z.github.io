@@ -32,7 +32,7 @@ $("#circle4").click( function(){
 	})
 		.fadeIn(1000);
 });
-setTimeout(function{
+setTimeout(function() {
 		   if(i>3){
 				i += 1;
 			}
