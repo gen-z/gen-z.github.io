@@ -3,8 +3,11 @@ body {
 	background-color:black;
 }
 h1 {
-	font-size: 60px;
+	font-size: 60px ;
 	text-align: center;
+}
+#current {
+	color:white;
 }
 #article {
 	background-color:white;
@@ -16,6 +19,10 @@ h1 {
 
 #article p {
 	font-size: 20px;
+}
+.chatroomTitle {
+	color:white;
+	padding:5px;
 }
 h2 { text-align:center; }
 #messageBox {
@@ -36,7 +43,7 @@ h4 {
     height: 80px;
     padding-top: 10px;
 	padding-left: 30px;
-    border: 10px solid grey;
+    border: 10px solid grey ;
     width: 90%;
 }
 input[type=text] { 
@@ -58,4 +65,25 @@ input[type=text] {
 	border: 0px;
 	height:30px;
 	width:100px
+}
+#channelTopics {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-size: 40px;
+	list-style-type: none;
+	text-align: center;
+	margin:0;
+	padding:0;
+	padding-top: 50px;
+}
+#channelTopics li { display:inline;}
+
+#channelTopics a {
+	text-decoration: none;
+	color:white;
+}
+
+#channelTopics a:hover {
+	text-decoration: underline;
+	transition: 1s;
 }
