@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	background-color:#a6fff6;
+	background-color:black;
 }
 h1 {
 	font-size: 60px;
@@ -22,7 +22,7 @@ h2 { text-align:center; }
     margin: 10px auto;
     height: 300px ;
     padding: 10px;
-    border: 10px solid #008A6B ;
+    border: 10px solid grey ;
     width: 90%;
     overflow-y:scroll;
 }
@@ -32,7 +32,7 @@ h4 {
     height: 80px;
     padding-top: 10px;
 	padding-left: 30px;
-    border: 10px solid #008A6B;
+    border: 10px solid grey;
     width: 90%;
 }
 input[type=text] { 
@@ -50,7 +50,7 @@ input[type=text] {
 	color:white;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 20px;
-	background-color: darkblue;
+	background-color: #555555;
 	border: 0px;
 	height:30px;
 	width:100px
