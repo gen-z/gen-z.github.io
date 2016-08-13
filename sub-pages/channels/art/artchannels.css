@@ -6,6 +6,9 @@ h1 {
 	font-size: 60px ;
 	text-align: center;
 }
+#current {
+	color:white;
+}
 #article {
 	background-color:white;
 	padding: 10px;
@@ -19,6 +22,7 @@ h1 {
 }
 .chatroomTitle {
 	color:white;
+	padding:5px;
 }
 h2 { text-align:center; }
 #messageBox {
@@ -70,6 +74,7 @@ input[type=text] {
 	text-align: center;
 	margin:0;
 	padding:0;
+	padding-top: 50px;
 }
 #channelTopics li { display:inline;}
 
