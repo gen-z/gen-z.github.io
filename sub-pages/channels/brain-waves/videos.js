@@ -39,9 +39,9 @@ var i = "FzEJSRAzo-Q";
       function stopVideo() {
         player.stopVideo();
       }
-	$("#left").click( function(){
-		$("#player")
-			.fadeOut(1000, function(){
-				i="OdLc4Yei2mw";
-		})
-			.fadeIn(1000);
+//	$("#left").click( function(){
+//		$("#player")
+//			.fadeOut(1000, function(){
+//				i="OdLc4Yei2mw";
+//		})
+//			.fadeIn(1000);
