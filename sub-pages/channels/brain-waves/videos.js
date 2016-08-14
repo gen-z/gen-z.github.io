@@ -40,8 +40,8 @@ var i = "FzEJSRAzo-Q";
         player.stopVideo();
       }
 	$("#left").click( function(){
-	$("#player")
-		.fadeOut(1000, function(){
-			i="OdLc4Yei2mw";
-	})
-		.fadeIn(1000);
+		$("#player")
+			.fadeOut(1000, function(){
+				i="OdLc4Yei2mw";
+		})
+			.fadeIn(1000);
