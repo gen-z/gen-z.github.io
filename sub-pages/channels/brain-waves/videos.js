@@ -42,6 +42,6 @@ var i = "FzEJSRAzo-Q";
 $("#left").click( function(){
 	$("#player")
 		.fadeOut(1000, function(){
-			i="OdLc4Yei2mw";
+			player.videoId ="OdLc4Yei2mw";
 	})
 		.fadeIn(1000);
