@@ -12,10 +12,9 @@ body {
 }
 
 #left {
-	position:absolute;
-	top:50%;
+	display:inline-block;
 }
 
 #right {
-	float: right;
+	display: inline-block;
 }
