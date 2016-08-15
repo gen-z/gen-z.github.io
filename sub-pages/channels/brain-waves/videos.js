@@ -40,7 +40,7 @@ var i = 0;
       function stopVideo() {
         player.stopVideo();
       }
-$("#left").click( function(){
+$("#right").click( function(){
 	$("#player")
 		.fadeOut(1000, function(){
 			if(i<3){

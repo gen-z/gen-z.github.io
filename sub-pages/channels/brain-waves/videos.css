@@ -9,7 +9,9 @@ body {
 	vertical-align: middle;
 }
 #left {
-	width:10px;
+	color:white;
+	background-color: dimgray;
+	padding:10px;
 }
 #channelTopics {
 	font-family: 'Raleway', sans-serif;
