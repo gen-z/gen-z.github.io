@@ -42,15 +42,7 @@ var i = "FzEJSRAzo-Q";
 $("#left").click( function(){
 	$("#player")
 		.fadeOut(1000, function(){
-			player = new YT.Player('player', {
-			  height: '390',
-			  width: '640',
-			  videoId: "OdLc4Yei2mw",
-			  events: {
-				'onReady': onPlayerReady,
-				'onStateChange': onPlayerStateChange
-			  }
-			});	
+			player.loadVideoById('oSYcSLU8GFM');
 	})
 		.fadeIn(1000);
 });
