@@ -28,7 +28,7 @@ $("#writer1").click( function(){
 	$("#writerbio")
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "alyssa.jpg");
-			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writertext").html("My name is Alyssa Velez. I was born and raised in Queens, NY. I come from a very large family. My mother is from Puerto Rico and my father is from Colombia. My favorite types of music are kpop and heavy heavy metal. In school my favorite subject is English because of the variety of novels that we get to read.");
 			$("#writername").html("Alyssa Velez");
 		})
 		.fadeIn(1000);
