@@ -12,9 +12,9 @@ body {
 }
 
 #left {
-	display:inline-block;
+	position:relative;
 }
 
 #right {
-	display: inline-block;
+	position: relative;
 }
