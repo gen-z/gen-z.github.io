@@ -46,7 +46,7 @@ p {
 #writerpic {
 	width:200px;
 	float:right;
-	padding: 10px;
+	padding-left: 10px;
 }
 #writertext {
 	font-size: 30px;
