@@ -11,8 +11,11 @@ body {
 #right {
 	color:white;
 	background-color: dimgray;
-	padding:10px;
+	padding:5px;
 	width:100px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
 }
 #channelTopics {
 	font-family: 'Raleway', sans-serif;
