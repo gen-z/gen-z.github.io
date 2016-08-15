@@ -78,6 +78,7 @@ $("#left").click( function(){
 });
 
 $("#video1").click(function() {
+	i=0;
 	$(".video").css("color","white");
 	$("#video1").css("color", "black");
 	$("#player")
@@ -87,6 +88,7 @@ $("#video1").click(function() {
 		.fadeIn(1000);
 })
 $("#video2").click(function() {
+	i=1;
 	$(".video").css("color","white");
 	$("#video2").css("color", "black");
 	$("#player")
@@ -96,6 +98,7 @@ $("#video2").click(function() {
 		.fadeIn(1000);
 })
 $("#video3").click(function() {
+	i=2;
 	$(".video").css("color","white");
 	$("#video3").css("color", "black");
 	$("#player")
@@ -105,6 +108,7 @@ $("#video3").click(function() {
 		.fadeIn(1000);
 })
 $("#video4").click(function() {
+	i=3;
 	$(".video").css("color","white");
 	$("#video4").css("color", "black");
 	$("#player")
@@ -114,6 +118,7 @@ $("#video4").click(function() {
 		.fadeIn(1000);
 })
 $("#video5").click(function() {
+	i=4;
 	$(".video").css("color","white");
 	$("#video5").css("color", "black");
 	$("#player")
@@ -123,6 +128,7 @@ $("#video5").click(function() {
 		.fadeIn(1000);
 })
 $("#video6").click(function() {
+	i=5;
 	$(".video").css("color","white");
 	$("#video6").css("color", "black");
 	$("#player")
@@ -132,6 +138,7 @@ $("#video6").click(function() {
 		.fadeIn(1000);
 })
 $("#video7").click(function() {
+	i=6;
 	$(".video").css("color","white");
 	$("#video7").css("color", "black");
 	$("#player")
@@ -141,6 +148,7 @@ $("#video7").click(function() {
 		.fadeIn(1000);
 })
 $("#video8").click(function() {
+	i=7;
 	$(".video").css("color","white");
 	$("#video8").css("color", "black");
 	$("#player")
@@ -150,6 +158,7 @@ $("#video8").click(function() {
 		.fadeIn(1000);
 })
 $("#video9").click(function() {
+	i=8;
 	$(".video").css("color","white");
 	$("#video9").css("color", "black");
 	$("#player")
@@ -159,6 +168,7 @@ $("#video9").click(function() {
 		.fadeIn(1000);
 })
 $("#video10").click(function() {
+	i=9;
 	$(".video").css("color","white");
 	$("#video10").css("color", "black");
 	$("#player")
