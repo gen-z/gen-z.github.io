@@ -38,6 +38,19 @@ p {
 	opacity: 0.5;
 }
 
+#writerbio {
+	background-color:white;
+	text-align: left;
+	color: black;
+}
+#writerpic {
+	width:350px;
+	float:right;
+	padding: 10px;
+}
+#writertext {
+	font-size: 30px;
+}
 
 #channelTopics {
 	font-family: 'Raleway', sans-serif;
