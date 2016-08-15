@@ -43,11 +43,11 @@ var i = 0;
 $("#right").click( function(){
 	$("#player")
 		.fadeOut(1000, function(){
-			if(i<3){
+			if(i<2){
 				i+=1;
 				player.loadVideoById(vidLink[i]);
 			}
-			if else(i===3) {
+			else {
 				i=0;
 				player.loadVideoById(vidLink[i]);
 			}
