@@ -11,6 +11,16 @@ body {
 	vertical-align: middle;
 	width:60%;
 }
+#left {
+	color:white;
+	background-color: dimgray;
+	padding:0px;
+	margin:5px;
+	width:100px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
 #right {
 	color:white;
 	background-color: dimgray;
