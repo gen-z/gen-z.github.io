@@ -12,6 +12,9 @@ body {
 	width:60%;
 	float:left;
 }
+#name {
+	color:black;
+}
 #playlist ul {
 	display:inline-block;
 	border: 1px solid grey;
