@@ -39,7 +39,7 @@ $("#writer2").click( function(){
 	$("#writer2").css("opacity","1.0");
 	$("#writerbio")
 		.fadeOut(1000, function(){
-			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
+			$("#writerpic").attr("src", "paula.jpg");
 			$("#writertext").html("My name is Paula Glab, I am 16 years old and I live in Rockaway Beach NY. I have lived by the beach for as long as I can remember. My family, however, hails from Poland. My parents raised me as a Polish American, even teaching me Polish before I learned English. My immediate family, more over the family I have in this country, consists of my mother, father and my sister. It can be rough at times, growing up with such a small family, but I haven't let that get to me yet. I prefer to see it as an opportunity to be able to choose my own family, meaning my friends and the people I have come to know and love.");
 			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/art/modern.html'>Art/#Modern</a></li></ul>")
 			$("#writername").html("Paula Glab");
