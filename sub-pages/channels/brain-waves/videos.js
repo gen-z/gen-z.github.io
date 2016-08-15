@@ -88,7 +88,7 @@ $("#video1").click(function() {
 })
 $("#video2").click(function() {
 	$(".video").css("color","white");
-	$("#video1").css("color", "black");
+	$("#video2").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[1]);
