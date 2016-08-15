@@ -1,4 +1,4 @@
-vidLink = ["FzEJSRAzo-Q",'oSYcSLU8GFM',"y1sHKG72UCs"]
+vidLink = ["FzEJSRAzo-Q",'oSYcSLU8GFM',"y1sHKG72UCs", "qg8OJB_NpgA"]
 var i = 0;
 // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
@@ -43,7 +43,7 @@ var i = 0;
 $("#right").click( function(){
 	$("#player")
 		.fadeOut(1000, function(){
-			if(i<2){
+			if(i<9){
 				i+=1;
 				player.loadVideoById(vidLink[i]);
 			}
@@ -62,9 +62,100 @@ $("#left").click( function(){
 				player.loadVideoById(vidLink[i]);
 			}
 			else {
-				i=3;
+				i=9;
 				player.loadVideoById(vidLink[i]);
 			}
 	})
 		.fadeIn(1000);
 });
+
+$("#video1").click(function() {
+	$(".video").style("color","white");
+	$("#video1").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[0]);
+	})
+		.fadeIn(1000);
+})
+$("#video2").click(function() {
+	$(".video").style("color","white");
+	$("#video1").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[1]);
+	})
+		.fadeIn(1000);
+})
+$("#video3").click(function() {
+	$(".video").style("color","white");
+	$("#video3").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[2]);
+	})
+		.fadeIn(1000);
+})
+$("#video4").click(function() {
+	$(".video").style("color","white");
+	$("#video4").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[3]);
+	})
+		.fadeIn(1000);
+})
+$("#video5").click(function() {
+	$(".video").style("color","white");
+	$("#video5").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[4]);
+	})
+		.fadeIn(1000);
+})
+$("#video6").click(function() {
+	$(".video").style("color","white");
+	$("#video6").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[5]);
+	})
+		.fadeIn(1000);
+})
+$("#video7").click(function() {
+	$(".video").style("color","white");
+	$("#video7").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[6]);
+	})
+		.fadeIn(1000);
+})
+$("#video8").click(function() {
+	$(".video").style("color","white");
+	$("#video8").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[7]);
+	})
+		.fadeIn(1000);
+})
+$("#video9").click(function() {
+	$(".video").style("color","white");
+	$("#video9").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[8]);
+	})
+		.fadeIn(1000);
+})
+$("#video10").click(function() {
+	$(".video").style("color","white");
+	$("#video10").style("color", "black");
+	$("#player")
+		.fadeOut(1000, function(){
+			player.loadVideoById(vidLink[9]);
+	})
+		.fadeIn(1000);
+})
