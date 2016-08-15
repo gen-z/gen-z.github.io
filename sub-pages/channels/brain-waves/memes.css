@@ -12,7 +12,9 @@ body {
 #right {
 	position: relative;
 }
-
+#picshow {
+	width:50%;
+}
 #channelTopics {
 	font-family: 'Raleway', sans-serif;
 	color:white;
