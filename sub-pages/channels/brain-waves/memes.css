@@ -6,9 +6,13 @@ body {
 }
 
 #memeslideshow {
-	display:block;
+	display:inline-block;
 }
 
-.arrows {
+#left {
+	display: block;
+}
+
+#right {
 	display: inline-block;
 }
