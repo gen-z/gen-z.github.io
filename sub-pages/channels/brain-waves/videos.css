@@ -21,9 +21,11 @@ body {
 	width:30%;
 	overflow-y: scroll;
 	text-align: center;
+	list-style-type: none;
 }
 #playlist li {
 	font-size: 30px;
+	border-bottom: 3px solid black;
 }
 #left {
 	color:white;
