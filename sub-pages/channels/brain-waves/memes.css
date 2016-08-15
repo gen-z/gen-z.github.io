@@ -10,9 +10,9 @@ body {
 }
 
 #left {
-	display: block;
+	float:left;
 }
 
 #right {
-	display: inline-block;
+	float: right;
 }
