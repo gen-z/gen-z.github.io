@@ -29,6 +29,7 @@ $("#writer1").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "alyssa.jpg");
 			$("#writertext").html("My name is Alyssa Velez. I was born and raised in Queens, NY. I come from a very large family. My mother is from Puerto Rico and my father is from Colombia. My favorite types of music are kpop and heavy heavy metal. In school my favorite subject is English because of the variety of novels that we get to read. I write for a variety of departments here on Gen Z, including Music and Sports.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li>dgu</li></ul>")
 			$("#writername").html("Alyssa Velez");
 		})
 		.fadeIn(1000);
