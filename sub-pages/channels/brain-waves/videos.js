@@ -45,10 +45,14 @@ $("#right").click( function(){
 		.fadeOut(1000, function(){
 			if(i<9){
 				i+=1;
+				$(".video").css("color","white");
+				$("#video" + i).css("color", "black");
 				player.loadVideoById(vidLink[i]);
 			}
 			else {
 				i=0;
+				$(".video").css("color","white");
+				$("#video1").css("color", "black");
 				player.loadVideoById(vidLink[i]);
 			}
 	})
@@ -59,10 +63,14 @@ $("#left").click( function(){
 		.fadeOut(1000, function(){
 			if(i>0){
 				i-=1;
+				$(".video").css("color","white");
+				$("#video"+i).css("color", "black");
 				player.loadVideoById(vidLink[i]);
 			}
 			else {
 				i=9;
+				$(".video").css("color","white");
+				$("#video10").css("color", "black");
 				player.loadVideoById(vidLink[i]);
 			}
 	})
