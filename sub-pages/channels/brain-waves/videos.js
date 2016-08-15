@@ -47,7 +47,7 @@ $("#right").click( function(){
 				i+=1;
 				player.loadVideoById(vidLink[i]);
 			}
-			else {
+			if else(i===3) {
 				i=0;
 				player.loadVideoById(vidLink[i]);
 			}
