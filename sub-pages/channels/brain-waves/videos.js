@@ -54,3 +54,17 @@ $("#right").click( function(){
 	})
 		.fadeIn(1000);
 });
+$("#left").click( function(){
+	$("#player")
+		.fadeOut(1000, function(){
+			if(i>0){
+				i-=1;
+				player.loadVideoById(vidLink[i]);
+			}
+			else {
+				i=3;
+				player.loadVideoById(vidLink[i]);
+			}
+	})
+		.fadeIn(1000);
+});
