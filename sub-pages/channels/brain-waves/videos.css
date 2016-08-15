@@ -22,7 +22,7 @@ body {
 	overflow-y: scroll;
 	text-align: center;
 }
-#playlist tr {
+#playlist li {
 	font-size: 30px;
 }
 #left {
