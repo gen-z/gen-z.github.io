@@ -46,7 +46,7 @@ $("#right").click( function(){
 			if(i<9){
 				i+=1;
 				$(".video").css("color","white");
-				$("#video" + i).css("color", "black");
+				$("#video" + (i+1)).css("color", "black");
 				player.loadVideoById(vidLink[i]);
 			}
 			else {
@@ -64,7 +64,7 @@ $("#left").click( function(){
 			if(i>0){
 				i-=1;
 				$(".video").css("color","white");
-				$("#video"+i).css("color", "black");
+				$("#video"+(i+1)).css("color", "black");
 				player.loadVideoById(vidLink[i]);
 			}
 			else {
