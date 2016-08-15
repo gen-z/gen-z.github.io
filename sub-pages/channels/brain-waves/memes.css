@@ -4,3 +4,11 @@ body {
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+
+#memeslideshow {
+	display:block;
+}
+
+.arrows {
+	display: inline-block;
+}
