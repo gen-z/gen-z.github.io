@@ -70,8 +70,8 @@ $("#left").click( function(){
 });
 
 $("#video1").click(function() {
-	$(".video").style("color","white");
-	$("#video1").style("color", "black");
+	$(".video").css("color","white");
+	$("#video1").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[0]);
@@ -79,8 +79,8 @@ $("#video1").click(function() {
 		.fadeIn(1000);
 })
 $("#video2").click(function() {
-	$(".video").style("color","white");
-	$("#video1").style("color", "black");
+	$(".video").css("color","white");
+	$("#video1").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[1]);
@@ -88,8 +88,8 @@ $("#video2").click(function() {
 		.fadeIn(1000);
 })
 $("#video3").click(function() {
-	$(".video").style("color","white");
-	$("#video3").style("color", "black");
+	$(".video").css("color","white");
+	$("#video3").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[2]);
@@ -97,8 +97,8 @@ $("#video3").click(function() {
 		.fadeIn(1000);
 })
 $("#video4").click(function() {
-	$(".video").style("color","white");
-	$("#video4").style("color", "black");
+	$(".video").css("color","white");
+	$("#video4").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[3]);
@@ -106,8 +106,8 @@ $("#video4").click(function() {
 		.fadeIn(1000);
 })
 $("#video5").click(function() {
-	$(".video").style("color","white");
-	$("#video5").style("color", "black");
+	$(".video").css("color","white");
+	$("#video5").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[4]);
@@ -115,8 +115,8 @@ $("#video5").click(function() {
 		.fadeIn(1000);
 })
 $("#video6").click(function() {
-	$(".video").style("color","white");
-	$("#video6").style("color", "black");
+	$(".video").css("color","white");
+	$("#video6").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[5]);
@@ -124,8 +124,8 @@ $("#video6").click(function() {
 		.fadeIn(1000);
 })
 $("#video7").click(function() {
-	$(".video").style("color","white");
-	$("#video7").style("color", "black");
+	$(".video").css("color","white");
+	$("#video7").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[6]);
@@ -133,8 +133,8 @@ $("#video7").click(function() {
 		.fadeIn(1000);
 })
 $("#video8").click(function() {
-	$(".video").style("color","white");
-	$("#video8").style("color", "black");
+	$(".video").css("color","white");
+	$("#video8").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[7]);
@@ -142,8 +142,8 @@ $("#video8").click(function() {
 		.fadeIn(1000);
 })
 $("#video9").click(function() {
-	$(".video").style("color","white");
-	$("#video9").style("color", "black");
+	$(".video").css("color","white");
+	$("#video9").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[8]);
@@ -151,8 +151,8 @@ $("#video9").click(function() {
 		.fadeIn(1000);
 })
 $("#video10").click(function() {
-	$(".video").style("color","white");
-	$("#video10").style("color", "black");
+	$(".video").css("color","white");
+	$("#video10").css("color", "black");
 	$("#player")
 		.fadeOut(1000, function(){
 			player.loadVideoById(vidLink[9]);
