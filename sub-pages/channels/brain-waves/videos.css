@@ -11,6 +11,15 @@ body {
 	vertical-align: middle;
 	width:60%;
 }
+#playlist {
+	float:right;
+	border-collapse: collapse;
+	border: 1px solid grey;
+	background-color: slategrey;
+	font-size: 30px;
+	height:200px;
+	overflow-y: scroll;
+}
 #left {
 	color:white;
 	background-color: dimgray;
@@ -26,7 +35,7 @@ body {
 	background-color: dimgray;
 	padding:0px;
 	margin:5px;
-	width:100px;
+	width:120px;
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
