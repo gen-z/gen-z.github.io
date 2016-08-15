@@ -35,7 +35,7 @@ body {
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
-	float:left;
+	display: inline-block;
 }
 #right {
 	color:white;
@@ -46,7 +46,7 @@ body {
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
-	float:right;
+	display: inline-block;
 }
 #channelTopics {
 	font-family: 'Raleway', sans-serif;
