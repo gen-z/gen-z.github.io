@@ -10,10 +10,10 @@ body {
 	padding:10px;
 	vertical-align: middle;
 	width:60%;
+	float:left;
 }
 #playlist {
 	float:right;
-	position:absolute;
 	border-collapse: collapse;
 	border: 1px solid grey;
 	background-color: slategrey;
@@ -21,7 +21,6 @@ body {
 	height:300px;
 	width:30%;
 	overflow-y: scroll;
-	top:30px;
 }
 #left {
 	color:white;
