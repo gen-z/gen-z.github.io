@@ -40,8 +40,9 @@ $("#writer2").click( function(){
 	$("#writerbio")
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
-			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
-			$("#writername").html("Joey Cabrera");
+			$("#writertext").html("My name is Paula Glab, I am 16 years old and I live in Rockaway Beach NY. I have lived by the beach for as long as I can remember. My family, however, hails from Poland. My parents raised me as a Polish American, even teaching me Polish before I learned English. My immediate family, more over the family I have in this country, consists of my mother, father and my sister. It can be rough at times, growing up with such a small family, but I haven't let that get to me yet. I prefer to see it as an opportunity to be able to choose my own family, meaning my friends and the people I have come to know and love.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/art/modern.html'>Art/#Modern</a></li></ul>")
+			$("#writername").html("Paula Glab");
 		})
 		.fadeIn(1000);
 });
@@ -52,6 +53,7 @@ $("#writer3").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
@@ -63,6 +65,7 @@ $("#writer4").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
@@ -74,6 +77,7 @@ $("#writer5").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
@@ -85,6 +89,7 @@ $("#writer6").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
@@ -96,6 +101,7 @@ $("#writer7").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
@@ -107,6 +113,7 @@ $("#writer8").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
@@ -118,6 +125,7 @@ $("#writer9").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
@@ -129,6 +137,7 @@ $("#writer10").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
