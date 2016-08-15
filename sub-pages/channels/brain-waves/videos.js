@@ -1,4 +1,5 @@
-var i = "FzEJSRAzo-Q";
+vidLink = ["FzEJSRAzo-Q",'oSYcSLU8GFM',"y1sHKG72UCs"]
+var i = 0;
 // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
 
@@ -13,7 +14,7 @@ var i = "FzEJSRAzo-Q";
         player = new YT.Player('player', {
           height: '390',
           width: '640',
-          videoId: i,
+          videoId: vidLink[i],
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -42,7 +43,14 @@ var i = "FzEJSRAzo-Q";
 $("#left").click( function(){
 	$("#player")
 		.fadeOut(1000, function(){
-			player.loadVideoById('oSYcSLU8GFM');
+			if(i<3){
+				i+=1;
+				player.loadVideoById(vidLink[i]);
+			}
+			else {
+				i=0;
+				player.loadVideoById(vidLink[i]);
+			}
 	})
 		.fadeIn(1000);
 });
