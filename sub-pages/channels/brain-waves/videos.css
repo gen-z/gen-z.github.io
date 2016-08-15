@@ -2,7 +2,7 @@ body {
 	color:white;
 	background-color: black;
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #player {
@@ -37,7 +37,7 @@ body {
 	width:130px;
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	display: inline-block;
 }
 #right {
@@ -48,11 +48,11 @@ body {
 	width:100px;
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	display: inline-block;
 }
 #channelTopics {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color:white;
 	font-size: 40px;
 	list-style-type: none;
