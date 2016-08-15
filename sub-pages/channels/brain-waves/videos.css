@@ -17,10 +17,13 @@ body {
 	border-collapse: collapse;
 	border: 1px solid grey;
 	background-color: slategrey;
-	font-size: 30px;
 	height:300px;
 	width:30%;
 	overflow-y: scroll;
+	text-align: center;
+}
+#playlist tr {
+	font-size: 30px;
 }
 #left {
 	color:white;
