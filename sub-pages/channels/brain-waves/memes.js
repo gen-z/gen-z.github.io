@@ -1,5 +1,5 @@
 var i = 0;
-srcLinks = ["http://media0.giphy.com/media/lKXEBR8m1jWso/giphy.gif","https://s3.amazonaws.com/wp-ag/wp-content/uploads/sites/72/2015/04/ClintonShruggiegif.gif", "http://img.ffffound.com/static-data/assets/6/8e3f5db6667474cf5430c5fc392dd3f3f1105abb_m.gif", "http://67.media.tumblr.com/ca1d7c1d12576587b2f18e4c32280c54/tumblr_mnw4cjrJuV1s3igp0o1_500.gif"];
+srcLinks = ["meme1.jpg", "meme2.jpg", "meme3.jpg", "", "", "", "", "", "", "", "", "", "", "", ""];
 
 $("#left").click( function(){
 	if(i>0){
