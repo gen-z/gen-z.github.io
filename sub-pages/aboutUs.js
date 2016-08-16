@@ -75,10 +75,10 @@ $("#writer5").click( function(){
 	$("#writer5").css("opacity","1.0");
 	$("#writerbio")
 		.fadeOut(1000, function(){
-			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
-			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
-			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
-			$("#writername").html("Joey Cabrera");
+			$("#writerpic").attr("src", "jevaun.JPG");
+			$("#writertext").html("My name is Jevaun, and I have many interests and activites. I play varsity basketball for my school (Go SeaWolves). Additonally, I'm really into music, and I'll bump to anything you want me to listen to. I can be laid back most of the time, but when the time comes I can get my head in the game. I don't mind meeting new people, and I always love having conversations to meet new people as well. Another pass time of mine is writing, since I always have a lot to say (according to my friends). One of my favorite things to learn about is history, to see where we've been, how we got here, adn where we might be going in the future. ");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/rap.html'>Music/#Rap</a></li>")
+			$("#writername").html("Jevaun McLean");
 		})
 		.fadeIn(1000);
 });
