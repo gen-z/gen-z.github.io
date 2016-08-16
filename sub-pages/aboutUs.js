@@ -63,10 +63,10 @@ $("#writer4").click( function(){
 	$("#writer4").css("opacity","1.0");
 	$("#writerbio")
 		.fadeOut(1000, function(){
-			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
-			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
-			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
-			$("#writername").html("");
+			$("#writerpic").attr("src", "briana.JPG");
+			$("#writertext").html("My name is Briana Andrea Lalman, and I am a high school student in New York City. My parents were born in Guyana, South America, and I have an older sister tens years older than ke. I take my academics extremely seriously, and also participate in many community service events in my free time. Throughout my life, I always knew that I wanted to pursue the field of law, and this was intensified after the death of my grandfather in 2015. I hope to be accepted into a prestigious school of law after I graduate high school.");
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/edm.html'>Music/#EDM</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/art/OldSchool.html'>Art/#OldSchool</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/brain-waves/editorials.html'>Brain Waves/#Editorials</a></li></ul>")
+			$("#writername").html("Briana Lalman");
 		})
 		.fadeIn(1000);
 });
