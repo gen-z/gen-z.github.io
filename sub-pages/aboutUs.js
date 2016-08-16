@@ -51,7 +51,7 @@ $("#writer3").click( function(){
 	$("#writer3").css("opacity","1.0");
 	$("#writerbio")
 		.fadeOut(1000, function(){
-			$("#writerpic").attr("src", "leyla.JPG");
+			$("#writerpic").attr("src", "leyla.PNG");
 			$("#writertext").html("My name is Leyla Arcasoy and I am currently a high school student in New York.  I come from a very small Turkish American family but that has not inhibited me from reaching any of my goals.  If anything, being the child of first-generation immigrants only encourages me to speak out and make my voice and mind known.  I have several different academic based interests, and I am extremely ambitious.  One day I want to be able to make my mark on the world, even in the smallest ways possible; and if that means starting with Gen Z to make my voice heard as a young teenager, then so be it.");
 			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
 			$("#writername").html("Leyla Arcasoy");
