@@ -65,7 +65,7 @@ $("#writer4").click( function(){
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "briana.JPG");
 			$("#writertext").html("My name is Briana Andrea Lalman, and I am a high school student in New York City. My parents were born in Guyana, South America, and I have an older sister tens years older than ke. I take my academics extremely seriously, and also participate in many community service events in my free time. Throughout my life, I always knew that I wanted to pursue the field of law, and this was intensified after the death of my grandfather in 2015. I hope to be accepted into a prestigious school of law after I graduate high school.");
-			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/edm.html'>Music/#EDM</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/art/OldSchool.html'>Art/#OldSchool</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/brain-waves/editorials.html'>Brain Waves/#Editorials</a></li></ul>")
+			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/edm.html'>Music/#EDM</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/art/oldSchool.html'>Art/#OldSchool</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/brain-waves/editorials.html'>Brain Waves/#Editorials</a></li></ul>")
 			$("#writername").html("Briana Lalman");
 		})
 		.fadeIn(1000);
