@@ -87,10 +87,10 @@ $("#writer6").click( function(){
 	$("#writer6").css("opacity","1.0");
 	$("#writerbio")
 		.fadeOut(1000, function(){
-			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
+			$("#writerpic").attr("src", "ryan.JPG");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
 			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
-			$("#writername").html("Joey Cabrera");
+			$("#writername").html("Ryan Biswas");
 		})
 		.fadeIn(1000);
 });
@@ -99,10 +99,10 @@ $("#writer7").click( function(){
 	$("#writer7").css("opacity","1.0");
 	$("#writerbio")
 		.fadeOut(1000, function(){
-			$("#writerpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
+			$("#writerpic").attr("src", "claudia.JPG");
 			$("#writertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
 			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/music/pop.html'>Music/#Pop</a></li><li><a href='https://gen-z.github.io/sub-pages/channels/sports/olympics.html'>Sports/#Olympics</a></li></ul>")
-			$("#writername").html("Joey Cabrera");
+			$("#writername").html("Claudia Dana");
 		})
 		.fadeIn(1000);
 });
