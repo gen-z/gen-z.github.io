@@ -1,5 +1,5 @@
 var i = 0;
-srcLinks = ["meme1.jpg", "meme2.jpg", "meme3.jpg", "", "", "", "", "", "", "", "", "", "", "", ""];
+srcLinks = ["https://s-media-cache-ak0.pinimg.com/236x/79/d3/6c/79d36c87c8dcb704ccc07921d8987ee1.jpg", "meme2.jpg", "meme3.jpg", "meme1.jpg", "", "", "", "", "", "", "", "", "", "", ""];
 
 $("#left").click( function(){
 	if(i>0){
