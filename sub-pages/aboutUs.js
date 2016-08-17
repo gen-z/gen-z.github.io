@@ -88,7 +88,7 @@ $("#writer6").click( function(){
 	$("#writerbio")
 		.fadeOut(1000, function(){
 			$("#writerpic").attr("src", "ryan.jpg");
-			$("#writertext").html("My name is Ryan Biswas, an 11th grader at the Bronx High School of Science. I live in Queens, New York and share an appreciation for clothes, music, and shopping. I'm a very open person, and I'm don to talk to or have a conversation with anyone.");
+			$("#writertext").html("My name is Ryan Biswas, an 11th grader at the Bronx High School of Science. I live in Queens, New York and share an appreciation for clothes, music, and shopping. I'm a very open person, and I'm don to talk to or have a conversation with anyone.<br><br><br>");
 			$("#writerlinks").html("Read Some Of My Work: <br><ul><li><a href='https://gen-z.github.io/sub-pages/channels/fashion/streetware.html'>Fashion/#Streetware</a></li></ul>")
 			$("#writername").html("Ryan Biswas");
 		})
