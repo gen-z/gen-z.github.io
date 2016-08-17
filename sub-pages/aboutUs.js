@@ -16,7 +16,7 @@ $("#joey").click( function(){
 	$("#founderbio")
 		.fadeOut(1000, function(){
 			$("#founderpic").attr("src", "http://i.imgur.com/ppAEzBx.jpg");
-			$("#foundertext").html("Maecenas pellentesque ultricies faucibus. Nullam et mattis augue, posuere faucibus velit. Vestibulum ut molestie turpis, vel congue lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec feugiat ut sem nec vehicula. Quisque ut eleifend felis, at vulputate erat. Vestibulum auctor orci nec convallis suscipit. In sed ipsum nunc. Suspendisse vitae erat dui. Nullam gravida ut felis cursus dignissim. Nam vel nibh vel sapien feugiat eleifend. Etiam odio urna, congue in bibendum ut, imperdiet sit amet velit. Nam vitae tempor eros. Donec tristique justo tempus ante imperdiet pulvinar. Praesent maximus rhoncus tortor, at elementum tellus mollis ut. Proin elementum feugiat eros, ac feugiat quam bibendum mollis. Duis volutpat mi tortor, ut egestas elit elementum quis. Vestibulum eu molestie ipsum. Curabitur id fringilla lorem. Morbi efficitur condimentum pulvinar. Cras et porta lectus. Nam sed augue eleifend, sollicitudin mauris fringilla, efficitur libero.");
+			$("#foundertext").html("Hi, my name is Joey. I’m a latino teen from New York. I’m obsessed with coding, skating and fashion. I come from a first generation family from the Dominican Republic. I’m an honors student at highschool of environmental studies. I founded Gen Z because not many teens have a place to openly let their voice be heard without discrimination, so I gave us teens a place to be teens. For teens by teens.");
 			$("#foundername").html("Joey Cabrera");
 		})
 		.fadeIn(1000);
