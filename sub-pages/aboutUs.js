@@ -4,7 +4,7 @@ $("#kevin").click( function(){
 	$("#founderbio")
 		.fadeOut(1000, function(){
 			$("#founderpic").attr("src", "http://coolwildlife.com/wp-content/uploads/galleries/post-1593/Brown%20Bear%20Picture%20001.jpg");
-			$("#foundertext").html("My name is Kevin, and I'm a junior at the Scholar's Academy. I'm a go with the flow kind of guy, who's always down to meeting new people and getting to know others well. I really enjy talking to people and enjoy having the company of others. I'm very into volunteer work, and just making the world into a better place. My music tatses can range from EDm, to Rock, to Soca. I enjoy art a lot, and find creating it just as great. I wanted to create this site to give teens a place dedicated to voicing their opinions. I'm a hardcore liberal, and I enjoy chocoloate chip cookies.");
+			$("#foundertext").html("My name is Kevin, and I'm a junior at the Scholar's Academy. I'm a go with the flow kind of guy, who's always down to meeting new people and getting to know others well. I really enjoy talking to people and enjoy having the company of others. I'm very into volunteer work, and just making the world into a better place. My music tatses can range from EDM, to Rock, to Soca. I enjoy art a lot, and find creating it just as great. I wanted to create this site to give teens a place dedicated to voicing their opinions. I'm a hardcore liberal, and I enjoy chocoloate chip cookies.");
 			$("#foundername").html("Kevin Calderon");
 		})
 		.fadeIn(1000);
