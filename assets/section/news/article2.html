@@ -1,0 +1,70 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article2.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">News/#StayWoke</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>Not Everyone Needed Reminding That June 27th was Posttraumatic Stress Awareness Day<br><img src="http://slodive.com/wp-content/uploads/2012/03/hairstyles-for-square-faces/future-memories.jpg"><small>Klaus Bottorff</small></p>
+		</div>
+		<div id="writing">
+			<p>The public's response to this year’s PTSD Awareness Day is an indication of just how far we have come in understanding and addressing posttraumatic stress. But a brief analysis of the history of PTSD reveals how far we still have to go.As ironic as it might sound, this year’s Posttraumatic Stress Disorder Awareness Day can really be considered a massive success. At least, as much of a success as any day designed to bring attention to the potentially devastating effects of a prolific mental condition can be. As of 6:30 ET, more than 14,500 twitter users had tweeted about PTSD awareness using the hashtag #PTSDAwarenessDay. And while brief trends on social media not be quite as powerful as we would sometimes like them to be, something can definitely be said for just how attentive our country has become to a mental condition that was relatively unfamiliar to us even a decade ago.</p>
+			<img src='assets/article2.png'>
+			<p>Many different individuals and organizations made tweets about PTSD, the combined effect of which emphasized the unique groups that PTSD can affect. Numerous veterans associations spread messages of support on twitter, including entities such as the Texas Veterans Land Board, US-affiliated Veterans Health, and Veterans Affairs Canada. Even the Department of Defense joined the conversation, and had this to say: </p>
+			<img src='assets/article2b.PNG'><br>
+			<p>It is completely understandable that those concerned with veterans would also be troubled by the damaging effects of PTSD-- after all, according to the National Center for PTSD, 11-20% of veterans involved in various conflicts such as the Vietnam War and the Gulf War have PTSD.<p>
+			<p>But, as the Huffington Post of October 19th, 2016, reminds us, PTSD is “not just for veterans.” The article notes that “not everyone experiences and perceives an event the same way, so there is no concrete list of events that can cause traumatic responses.” This outlines the overall tone of the thousands of tweets on the 27th of June this year: any serious trauma can have dangerous mental effects, and offering all those in need assistance is the humane thing to do.</p>
+			<p>Even days later as the tweets continue to pour in, we cannot forget that posttraumatic stress disorder support and education initiatives did not always have such a powerful platform to stand on. The National Center for PTSD explains that traumatic experiences have “always been part of the human condition,” the corollary of which is that posttraumatic stress has been observable in humans for many thousands of years. So even as we in the 21st century mourn the loss of well over a dozen veterans a day, the reality is that posttraumatic stress has touched more lives than we will ever know.</p>
+			<p>In short, PTSD is not going away. Defeating it (or more realistically, preventing it from continuing to be quite so ubiquitous) is going to take more than a trending twitter hashtag. But considering that PTSD Awareness Day was only officially designated as the 27th of June as recently as 2010, we have still come a long way. Only time will tell whether or not we can really conquer something so seemingly inherent in us as humans.</p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article2.js"></script>
+</body>
+</html> 

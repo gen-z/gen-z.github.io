@@ -1,0 +1,67 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="tech.css" rel="stylesheet">
+<body>
+	<h1 id="current">Tech/#CoolTech</h1>
+	<div id = "article">
+	<h1> Duo </h1>
+	<h2>Kevin Calderon</h2>
+		<p>Picture this; you're bored out of your mind, nothing to do. Then, you realize that your friend also has no life and is also bored out of their mind. So, you try giving them a call on FaceTime. Of course, you then realize that said person does not have an iPhone. Great.</p>
+		<p>One app called Duo plans to change this. Developed by Google, Duo is a video call app that aims to create the easiest and most efficient way for the user to be able to call anyone from anywhere, no matter what OS or phone they have. With barely and UI elements, this app makes it extremely easy for one to make a call. The start screen shows what the front camera sees, and contacts in your phone that you can call. This new app may just be a game changer, as it was built by Google to fit the needs of mobile users specifically (there is no desktop app).</p>
+		<p>However, one challenge Google will have to face is actually attracting users to the app. Although Duo may be an alternative, there are many alternatives available out there. Snapchat, Hangouts, YahooLive just to name a few. Duo will have to face many trials and tribulations before it becomes anyone's number one choice for video calls.</p>
+	</div> 
+    <h1 class="chatroomTitle">Discussion</h1>
+    </div>
+    <div id= "chatroom">
+        <h2 class="chatroomTitle">How Do You Feel About This?</h2>
+    </div>
+    <div id= "messageBox">
+        <h3></h3>
+    </div>
+    <div id = input>
+        <h4>
+			<input placeholder='Name' type='text' id='name'>
+            <input placeholder='Comment' type="text" id= "messages" >
+			<button id = "js">Send</button>
+		</h4>
+        </div>
+		<div>
+			<ul id="channelTopics">
+				<li><a href="https://gen-z.github.io/sub-pages/us-news.html">U.S. News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/world-news.html">World News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/uspol.html">Politics</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/music.html">Music</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/art.html">Art</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/fashion.html">Fashion</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/sports.html">Sports</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/brain-waves.html">Brain Waves</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/games.html">Gaming</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/tech.html">Technology</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/mainstream.html">Mainstream</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/underground.html">Underground Culture</a></li><br>
+				<li><a href="https://gen-z.github.io/sub-pages/aboutUs.html">About Us</a></li>
+			</ul>
+		</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="coolGadgets.js"></script>
+</body>
+</html> 

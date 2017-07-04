@@ -1,0 +1,64 @@
+body {
+	background: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+	color:white;
+}
+nav {
+	font-size: 25px;
+	background: black;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	top: 0;
+}
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 0 30px 0 30px;
+}
+nav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul a:hover {
+	text-decoration-line: underline;
+}
+#piece {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 30px;
+}
+#piece span {
+	font-size: 50px;
+}
+.newreads {
+	text-align: left;
+	background: grey;
+	padding-left: 30px;
+}
+.newreads table {
+	width: 100%;
+}
+.newreads img {
+	height: 200px;
+	
+}
+.newreads p  {
+	padding-top: 30px;
+}
+.newreads td {
+	padding: 15px 20px 15px 20px;
+	border-bottom: 2px solid white;
+}
+.newreads a {
+	text-decoration: none;
+	color: inherit;

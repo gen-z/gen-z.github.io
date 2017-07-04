@@ -1,0 +1,68 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="underground.css" rel="stylesheet">
+<body>
+	<h1 id="current">Underground/#TheScene</h1>
+	<div id = "article">
+	<h1> The Scene </h1>
+	<h2> Author: Joey Cabrera </h2>
+		<p>The underground scene consist of everything not mainstream. The underground scene consist of everything from culture, to music, to media. There is underground rock, underground rap, underground shows and more. A perfect source of underground media would be Adult Swim.Adult Swim is a channel on TV that plays a lot of underground media such as Loiter squad, and Aqua teen hunger force in the later hours. </p>
+		<p>	Adult swim also helps spread a lot of underground content in terms of music. Adult swim bump spreads very relaxing and mellow music that not many people know off. Adult swim also has close correlations with very underground rappers such as Earl Sweatshirt and Tyler the creator. Adult Swim has helped spread the underground culture while keeping it underground.  </p>
+		<p>The underground scene consist of everything that doesn’t initially follow the rules to being pop or mainstream. In a way you can say you’ll find most hipsters in the underground scene following trends you probably don’t even know about. Adult swim has definitely helped spread the scene and culture around and grow the underground scene</p>
+		<p>What’s some underground stuff we are forgetting about?</p>
+	</div> 
+    <h1 class="chatroomTitle">Discussion</h1>
+    </div>
+    <div id= "chatroom">
+        <h2 class="chatroomTitle">How Do You Feel About This?</h2>
+    </div>
+    <div id= "messageBox">
+        <h3></h3>
+    </div>
+    <div id = input>
+        <h4>
+			<input placeholder='Name' type='text' id='name'>
+            <input placeholder='Comment' type="text" id= "messages" >
+			<button id = "js">Send</button>
+		</h4>
+        </div>
+		<div>
+			<ul id="channelTopics">
+				<li><a href="https://gen-z.github.io/sub-pages/us-news.html">U.S. News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/world-news.html">World News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/uspol.html">Politics</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/music.html">Music</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/art.html">Art</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/fashion.html">Fashion</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/sports.html">Sports</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/brain-waves.html">Brain Waves</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/games.html">Gaming</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/tech.html">Technology</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/mainstream.html">Mainstream</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/underground.html">Underground Culture</a></li><br>
+				<li><a href="https://gen-z.github.io/sub-pages/aboutUs.html">About Us</a></li>
+			</ul>
+		</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="theScene.js"></script>
+</body>
+</html> 

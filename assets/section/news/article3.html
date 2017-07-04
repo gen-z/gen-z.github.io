@@ -1,0 +1,70 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article3.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">News/#Shooting</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>Little Rock Shooting<br><img src="assets/leannep.jpg"><small>Leanne Pichay</small></p>
+		</div>
+		<div id="writing">
+			<p>A nightclub in Little Rock, Arkansas, became the target of a violent exchange of gunfire at around 2:30AM, Saturday morning.</p>
+			<img src='assets/article3a.png'><br><small>An investigator collects evidence near an Arkansas nightclub where police say multiple people were shot, Saturday, July 1, 2017, in Little Rock, Ark. (AP Photo/Andrew DeMillo)</small>
+			<p>	In the space of 11 seconds, over 24 shots were fired, injuring 25 people were shot at the Power Ultra Lounge. An additional three were injured in the frenzy to escape the nightclub and avoid the gunman.</p>
+ 			<p>Khalid Stewart, a college student, described the scene as chaotic as a result of people being unaware of where the shots were coming from. He furthermore described the scene, stating, “After the first few shots, everybody was laying down. It was more than just a few shots too.”</p>
+			<p>Video footage shows that the club was filled in anticipation of a concert from rapper Finese 2Tymes. A break in the concern appeared to be underway at the time in which the shooting occurred.</p>
+			<p>Courtney Swanigan, a patron aged 23, stated, “I just closed my eyes, got down on the ground and put my hands on my head.”The demographic was concentrated firmly in young adults and those in their late teens, with the youngest victim aged 16.The shooting is believed to be the result of a violent disagreement between patrons who had possession of weapons, rather than a terror related crime. Whilst it has yet to be confirmed, there is speculation that the incident has ties to local gangs.</p>
+			<p>Though two victims were initially deemed to be in a critical condition, it has been confirmed that all patrons of the club are in a stable condition and are expected to make a full recovery.This comes at the culmination of a violent week in Little Rock, wherein there have reportedly been multiple drive-by shootings. Governor Asa Hutchinson commented on this, saying, “Little Rock’s crime problem seems to be intensifying. Every few days it seems a high-profile shooting dominates the news.”</p>
+			<p>The Bureau of Alcohol, Tobacco, Firearms and Explosives has announced its assistance, ordering suspension of the club’s liquor permit. There is also a hearing before the Alcoholic Beverage Control Board, as a result of charges including disorderly conduct and allowing possession of weapons on the premises.</p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article3.js"></script>
+</body>
+</html> 

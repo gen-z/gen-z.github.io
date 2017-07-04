@@ -1,0 +1,66 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article3.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">Culture/#GenZ</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>What's a Generation Z?<br><img src="assets/angelicaj.jpg"><small>Angelica Janumala </small></p>
+		</div>
+		<div id="writing">
+			<p>Today's adults love to put labels on our generation, as if we were fancy foods in a supermarket or exotic animals at the zoo. To be fair, our generation is a bit different from the ones that came before it. Where the Baby Boomers and Generation X struggle with sending an email, our generation is born fluent in Instagram, Facebook, and Snapchat. Contrary to popular belief, we do know what cassettes and VHS tapes are, but it takes us a while to remember why we should care. After all, in an age of technology and globalization, we're the most powerful multi-taskers the world has probably ever seen, so we're used to moving fast into the future (and adults are already <a href="http://atlasbusinessjournal.org/generating-lifelong-loyal-brand-gen-z-consumers/">scrambling to make a lot of money off us when we get there</a>). To us, Internet memes mean a couple of laughs or a way to express our emotions with peers, but whether we like it or not, our word becomes law to the millions of adults examining us closely under the microscope of profit, asking each other, "Damn, Daniel! How much money will this Woke Bae make for us?" We're powerful, we're influential, and we make up <a href="https://www.inc.com/christine-lagorio/entrepreneurial-generation-z.html">over a quarter of the American population</a>, but we never seem to get credit for this. If we're even lucky enough to get distinguished from the fully grown adult Millennial generation, we're known as the Homeland Generation, or maybe the iGeneration, defined by 9/11 and our newfangled smartphones but not really acknowledged for who we are or what we can do. Well... wait, who are we? What can we do? And why are adults so obsessed with us?</p>
+			<p>Here's what you probably already know about your generation. You're young, 22 years old at most. You've watched your elders fumble through political scandals and economic recessions, and, most depressingly, you've seen your culture get beaten into the ground by corporations and media groups that are painfully out of touch with what YOU care about. (Are you excited to see the Emoji Movie? Really?)</p>
+			<p>Now here's what adults know, or what they think they know, about your generation. They know you lived through the Great Recession, so you're probably less selfish than your avocado toast-eating Millennial counterparts. Then again, you've lived all your life surrounded by technology, so you could be demanding. However, you show drive and entrepreneurship in your personal life, so that'll pay off in spades<a href="https://www.forbes.com/sites/kathryndill/2015/11/06/7-things-employers-should-know-about-the-gen-z-workforce/#1dd50fa4fad7"> once you enter the workforce</a>. You're anxious about money and you're wary of making the same public mistakes your elders do, but so were the kids of the 1920s, so you're <a href="https://www.nytimes.com/2015/09/20/fashion/move-over-millennials-here-comes-generation-z.html">not really unique</a>. What you are, though, is extremely clever, and you'll change the world. (That last fact is something both we and the adults have managed to figure out.)</p>
+			<p>The Post-Millennials, or the Plurals, or the Founders: what we lack in solid identity, we make up for in potential. Maybe adults won't ever be able to see past our "smartphone addictions" and realize how quickly we make deep connections with the world around us, but we're only just beginning to shape our worlds, and we're not going anywhere. We are Generation Z, we'll say. Who are you?</p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article3.js"></script>
+</body>
+</html> 

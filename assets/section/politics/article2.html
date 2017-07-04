@@ -1,0 +1,66 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article2.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">Politics/#DeCorum</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>Why Assassination Jokes Aren’t So Funny<br><img src="assets/katelynz.jpg"><small>Katelyn Zeser</small></p>
+		</div>
+		<div id="writing">
+			<p>If you’ve been watching the news lately, you’ve almost surely seen headlines concerning the latest person (ex. Kathy Griffin, Johnny Depp) who has made a joke about assassinating the current POTUS, Donald Trump.</p> 
+			<img src='assets/article2.jpg'>
+			<p>Now, don’t get me wrong. I am not a supporter of Trump, and as a young, moderately leftist female, a lot of his decisions in office have been distressing and unsettling. But here’s the thing-- I can tell you why I don’t support him without making any reference to an assassination. In the last twenty years, the two major political parties in the US have become increasingly polarized, and that separation fueled a level of publicized political hatred our country hasn’t experienced since the events leading to the Civil War. I love that we live in a democracy. Everyone can have an opinion, and believe me, I have plenty of those. But what happens when the way people express their own beliefs is threatening to the democratic principles that allow them to do so? One of the most basic foundations of democracy, especially in a republic, is that there has to be peaceful transfer of power between groups. Now, in its purest form, this essentially means politicians can’t murder each other or display violence when they lose/gain power. </p>
+			<p>However, this idea also means that people who advocate for democracy shouldn’t stall the political process by kicking and screaming when things don’t turn out the way they want at the polls. This includes making jokes about assassinating the leader of the United States, by the way. I am in no way saying that if you don’t agree with a specific piece of legislation or a decision made by an elected official, you should be silent. Call your representatives, your senators. Go to town hall meetings.  Don’t endorse violence, though. Whether you want to believe it or not, making a joke about assassinating a president is very clearly endorsing violence, and all it does is show how fragmented our democracy is quickly becoming. The fact that people are losing faith in the polls and their own political efficacy shakes American democracy to its core. People have been unhappy with presidents before, and even though Trump’s approval rating is low, that doesn’t mean he deserves to be decapitated (I’m talking to you, Kathy Griffin). Even if he’s a proponent of misogyny and the objectification of women, he certainly shouldn’t have the power to fracture democracy and relationships within our nation. By putting forth hatred and negativity-- in essence, kicking and screaming-- the American people are putting that power into his hands. Don’t give him that power. Vote. Act. Choose your words wisely. The First Amendment gives free speech, but don’t forget the foundations of democracy that provide those rights.</p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article2.js"></script>
+</body>
+</html> 

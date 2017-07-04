@@ -1,75 +1,100 @@
 body {
-	background-color:black;
+	background:black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	margin: 0 auto;
 }
 
 #titleHome {
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
 	color: white;
-}
-#titleHome h1 {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 80px;
-	margin-bottom: 5px;
-}
-#titleHome h2 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 60px;
+	padding: 0;
+	line-height: 30px;
+	font-size: 35px;
 }
 
-#picshow {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-	height: 400px;
-}
-#slideshowName {
-	color:white;
-	background-color:grey;
-	padding: 5px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 30px;
-	position:absolute;
-	left:45%;
-	top:650px;
-	
-}
-
-.circles {
-	width: 20px;
-	position:relative;
-	top: 40%;
-	padding: 5px;
-}
-#circle1 {
-	left: 39%;
-}
-#circle2 {
-	left: 43%;
-}
-#circle3 {
-	left: 47%;
-}
-#circle4 {
-	left: 51%;
-}
 #channelTopics {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color:white;
-	font-size: 40px;
+	font-size: 30px;
 	list-style-type: none;
 	text-align: center;
-	margin:0;
-	padding:0;
 }
-#channelTopics li { display:inline;}
+#channelTopics li { 
+	display:inline;
+	margin: 0 15px 0 15px;
+	}
 
 #channelTopics a {
 	text-decoration: none;
 	color:white;
 }
+.carousels {
+	font-family:'Open Sans Condensed', sans-serif;
+	color: white;
+	max-width:900px;
+	margin: inherit;
+	height: 400px;
+}
 
-#channelTopics a:hover {
-	text-decoration: underline;
-	transition: 1s;
+
+.carousels p {
+	font-size:30px;
+	height:100%;
+	background: linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0));
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0));
+	background: -moz-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+#carousel {
+	background-image: url("http://img.huffingtonpost.com/asset/scalefit_720_noupscale/58c82f8f1d000037037ce5f9.jpeg");
+	background-size: cover;
+}
+#carousel a {
+	text-decoration: none;
+	color: inherit;
+}
+#sections {
+	font-family: inherit;
+	color: white;
+	font-size:30px;
+	margin: 0 auto;
+	width: 900px;
+	text-align: center;
+}
+#sections table {
+	width: 900px;
+}
+#sections img {
+	height: 200px;
+	
+}
+#sections p {
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+}
+#sections td {
+	padding: 15px 0px 15px 0px;
+	text-align: center;
+	border-bottom: 2px solid white;
+}
+#sections a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+@media (max-device-width:500px) {
+	#titleHome {
+		font-size:60px;
+	}
+	#titleHome h2 {
+		font-size: 50px;
+	}
+	#channelTopics {
+		font-size: 50px;
+	}
+	#carousel {
+		width: auto;
+	}
 }

@@ -1,0 +1,67 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="tech.css" rel="stylesheet">
+<body>
+	<h1 id="current">Tech/#UpAndComing</h1>
+	<div id = "article">
+	<h1> The Future of Artificial Intelligence </h1>
+	<h2>Kevin Calderon</h2>
+		<p> When one thinks of artificial intelligence, one of the main things that might pop into their head is a robot gone rogue, out to eliminate any human that gets in it's way. Others might think of a giant computer that enslaves the entire human race to serve as his servers and life force. Believe it or not, you don't have to be in a scifi movie in order to interact with AI machines; in fact, the phone in your hands and the computer you use would have been considered advanced forms of AI a few decades ago.</p>
+		<p>In the dawn of modern technology, computers were really only able to complete one activity at a time, and had to be told to do so by a human command. However, today many forms of technology are able to complete hundreds of tasks all at the same time, and without being told so. Because of that, it would be considered an AI machine by the standards of the 1950s or 60s.</p>
+		<p>Today, AI has come to be a more advanced form of machinery, involving learning from the information and data it takes in, and being able to make decisions based off of the data that it has. Many companies are investing in research for AI machinery, in hopes of getting to use said technology by applying it in real world situations. Because of that, Artificial Intelligence could be considered and Up And Coming tech that will soon become a very marketable area to not only participate in, but watch being built from the ground up. Indeed, AI is one of the next big tech sectors to look into.</p>
+	</div> 
+    <h1 class="chatroomTitle">Discussion</h1>
+    </div>
+    <div id= "chatroom">
+        <h2 class="chatroomTitle">How Do You Feel About This?</h2>
+    </div>
+    <div id= "messageBox">
+        <h3></h3>
+    </div>
+    <div id = input>
+        <h4>
+			<input placeholder='Name' type='text' id='name'>
+            <input placeholder='Comment' type="text" id= "messages" >
+			<button id = "js">Send</button>
+		</h4>
+        </div>
+		<div>
+			<ul id="channelTopics">
+				<li><a href="https://gen-z.github.io/sub-pages/us-news.html">U.S. News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/world-news.html">World News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/uspol.html">Politics</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/music.html">Music</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/art.html">Art</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/fashion.html">Fashion</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/sports.html">Sports</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/brain-waves.html">Brain Waves</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/games.html">Gaming</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/tech.html">Technology</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/mainstream.html">Mainstream</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/underground.html">Underground Culture</a></li><br>
+				<li><a href="https://gen-z.github.io/sub-pages/aboutUs.html">About Us</a></li>
+			</ul>
+		</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="hotStuff.js"></script>
+</body>
+</html> 

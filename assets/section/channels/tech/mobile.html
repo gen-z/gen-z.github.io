@@ -1,0 +1,67 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="tech.css" rel="stylesheet">
+<body>
+	<h1 id="current">Tech/#Mobile</h1>
+	<div id = "article">
+	<h1> Apple's Elusive iPhone </h1>
+	<h2>Kevin Calderon</h2>
+		<p>Now that we have made it all th way to August, it’s about that time of year again. That’s Right; It’s just about time that Apple starts hyping up the next and best of it’s iPhone line. Since the last phone was called the iPhone 6S, many are anticipating that this next model would be called the iPhone 7. However, Apple has always ben full of surprises, always switching something up every year. For Example, back in 2014 they unveiled the iPhone 6 in a bigger size, and back in 2013 they unveiled the TouchID home button that all modern iPhones are equipped with today.</p>
+		<p>This year, Apple seems to be taking a considerable amount of time, or really longer than usual to actually announce the ceremony where they would unveil said iPhone. Every year Apple makes consumers wait more and more time for the unveiling of the next iPhone, most likely using a strategy similar to that Beyoncé had in mind when she released her self-titled album Beyoncé. She didn't actually announce or self promote her album; in fact, it was a complete surprise when she dropped her album on iTunes. That album went to become the fastest selling album of all time.</p>
+		<p>Similarly, Apple probably wants to create a feeling of elusiveness of the next iPhone, to make people want to know about it more, and hopefully for the company, buy it. This is especially crucial due to the falling of sales for the company in the last quarter. So, if you're waiting for the next iPhone dying to know what's new, don't worry, because that's about half of Apple consumers today.</p>
+	</div> 
+    <h1 class="chatroomTitle">Discussion</h1>
+    </div>
+    <div id= "chatroom">
+        <h2 class="chatroomTitle">How Do You Feel About This?</h2>
+    </div>
+    <div id= "messageBox">
+        <h3></h3>
+    </div>
+    <div id = input>
+        <h4>
+			<input placeholder='Name' type='text' id='name'>
+            <input placeholder='Comment' type="text" id= "messages" >
+			<button id = "js">Send</button>
+		</h4>
+        </div>
+		<div>
+			<ul id="channelTopics">
+				<li><a href="https://gen-z.github.io/sub-pages/us-news.html">U.S. News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/world-news.html">World News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/uspol.html">Politics</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/music.html">Music</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/art.html">Art</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/fashion.html">Fashion</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/sports.html">Sports</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/brain-waves.html">Brain Waves</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/games.html">Gaming</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/tech.html">Technology</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/mainstream.html">Mainstream</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/underground.html">Underground Culture</a></li><br>
+				<li><a href="https://gen-z.github.io/sub-pages/aboutUs.html">About Us</a></li>
+			</ul>
+		</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="mobile.js"></script>
+</body>
+</html> 

@@ -1,0 +1,94 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="articles.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">Culture/#Music</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>Top 10 on the Hot 100: Opinions<br><img src="assets/jessicam.JPG"><small>Jessica Morales</small></p>
+		</div>
+		<div id="writing">
+			<p>	This summer has begun with catchy songs that get stuck in your head. You can't help but dance and sing along to the songs. The best part is that each of them has their uniqueness.</p>
+			<p>So here are the top 10 songs of the Billboard Hot 100 & what I think of them:</p>
+			<p>10. XO Tour Life by lil Uzi
+			<br>-"All my friends are dead. Push me to the edge."
+			<br>I only heard of this verse from the song. I feel like this is the only reason it is in the top 10 because this part sticks with you. Other than that it doesn't compare to the rest of songs on the list.</p>
+			<p>9. Congratulations by Post Malone
+			<br>- "Now they always say CONGRATULATIONS! Worked so hard, forgot how to vacation. They ain't never had the dedication."
+			<br>At number 9, this song is one you just feel the urge to jump up and sing. I have seen it used as a graduation song and saw the all the kids in the audience sing it along with the graduates. However, the only part people seem to know is the quote I put.</p>
+			<p>8. Stay by Zedd and Alessia Cara
+			<br>-"All you have to do is stay a minute. Just take your time. The clock is ticking."
+			<br>Stay isn't necessarily a song you dance to but rather a song you sing at the top of your lungs to a friend. The chorus plays a lot and leaves little for verses but overall it is one of my favorites because the chorus is something that you will remember.</p>
+			<p>7. Something Just Like This by Coldplay & The Chainsmokers
+			<br>-"Achilles and his gold. Hercules and his gifts"
+			<br>Did everyone else realize all the references to history in the beginning? This is a more slow song compared to the rest on the list. But when the beat drops it has a different feel to it. Coldplay does an amazing job switching the beat and making it work. At times you want to ain't it and then the beat changes and then you start feeling your feet tapping and you get into the song.</p>
+			<p>6. Mask Off by The Future
+			<br>-"Rep the set, gotta rep the set"
+			<br>The beat is amazing and the song is soothing as shocking as it may seem due to the lyrics. Honestly, I've always thought it was "represent". I still don't understand why he says mask off, does anyone know?</p>
+			<p>5. HUMBLE by Kendrick Lamar
+			<br>-"My last song just went viral"
+			<br>Never really liked this song. I feel like it isn't a song you could sing along to. It's probably something you just listen to and not learn the lyrics.</p>
+			<p>4. Shape of you by Ed Sheeran
+			<br>-"I'm in love with the shape of you. We push and pull like a magnet do. Although my heart is falling too”
+			<br>Can we just take a second to talk about the music video? The sumo wrestling was the best part. I couldn't stop laughing. Now back to the song. Ed Sheeran just knows how to create cute love songs. It's very easy to learn the words to and just do karaoke too.</p>
+			<p>3. That’s What I Like by Bruno Mars
+			<br>-”You deserve it baby, you deserve it all. And I'm gonna give it to you”
+			<br>How is this song ranked higher than some of the other songs? Sure, it has some nice lyrics, but the lyrics aren't as catchy. The song is slow and allows little dance to be done.</p>
+			<p>2. I’m the One by DJ Khaled
+			<br>-”Yeah, you're lookin' at the truth, the money never lie no. I'm the one, yeah, I'm the one”
+			<br>This reminds me of the early 2000s r&b songs. It was slow, but still had a beat that made you want to move. I was shocked to see Lil Wayne, however.</p>
+			<p>1. Despacito by Luis Fonsi
+			<br>-”Pasito a pasito, suave suavecito. Nos vamos pegando, poquito a poquito”
+			<br>An amazing song that everyone could sing to. I don’t even know Spanish and I will have this song on full blast. Personally, I don’t feel like the Justin Beiber version isn’t bad at all. Both versions are great and are a great song to start a party with.</p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article1.js"></script>
+</body>
+</html> 

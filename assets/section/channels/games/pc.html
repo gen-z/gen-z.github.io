@@ -1,0 +1,66 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="games.css" rel="stylesheet">
+<body>
+	<h1 id="current">Gaming/#PC</h1>
+	<div id = "article">
+	<h1> Article </h1>
+		<p>Anyone who’s deep in PC gamings knows that when it comes to graphics and GPU, no one should mess with either AMD or Nvidia, both graphics companies that deal with developing hardware for computers in order to create better graphics. These two companies have long been at war with each other, trying to control the market as a whole, but continuing their struggle at this very day.</p>
+		<p>Although many users use products from both companies, AND is more tailored towards people who don’t mind using low end GPU’s while Nvidia sells more high end GPU’s. Because of this, it could be said that the market war is kroe about low end GPU’s vs high end GPu’s, and how they compare. Since AMD is more of a low end company, it’s getting more people to buy products from there, yet at the same time Nvidia makes up for it by selling at higher prices and making graphics looks somewhat better than AMD.</p>
+		<p>In the end however, it’ really up to the person who’s buying whether they wanna go with high end or low end GPU, because unless one company or the other gives in, there really is no way for the feud to end at this time. </p>
+	</div> 
+    <h1 class="chatroomTitle">Discussion</h1>
+    </div>
+    <div id= "chatroom">
+        <h2 class="chatroomTitle">How Do You Feel About This?</h2>
+    </div>
+    <div id= "messageBox">
+        <h3></h3>
+    </div>
+    <div id = input>
+        <h4>
+			<input placeholder='Name' type='text' id='name'>
+            <input placeholder='Comment' type="text" id= "messages" >
+			<button id = "js">Send</button>
+		</h4>
+        </div>
+		<div>
+			<ul id="channelTopics">
+				<li><a href="https://gen-z.github.io/sub-pages/us-news.html">U.S. News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/world-news.html">World News</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/uspol.html">Politics</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/music.html">Music</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/art.html">Art</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/fashion.html">Fashion</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/sports.html">Sports</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/brain-waves.html">Brain Waves</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/games.html">Gaming</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/tech.html">Technology</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/mainstream.html">Mainstream</a> -</li>
+				<li><a href="https://gen-z.github.io/sub-pages/underground.html">Underground Culture</a></li><br>
+				<li><a href="https://gen-z.github.io/sub-pages/aboutUs.html">About Us</a></li>
+			</ul>
+		</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="pc.js"></script>
+</body>
+</html> 

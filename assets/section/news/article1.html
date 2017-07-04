@@ -1,0 +1,72 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article1.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">News/#Elections</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>Georgia’s Special Election Sees Expected Results Despite National Attention and Influence<br><img src="assets/averyw.jpg"><small>Avery Wall</small></p>
+		</div>
+		<div id="writing">
+			<p>	 On June 20th, over 250,000 Georgians voted in the runoff election for the 6th District after former representative Tom Price was chosen as the Secretary of Health and Human Services for the Trump Administration. They <a href="https://ballotpedia.org/Georgia%27s_6th_Congressional_District_special_election,_2017">elected</a> Republican candidate Karen Handel, which is not surprising considering the district’s history of Republican leadership, but the path leading up to this victory was not as smooth as many republicans wanted. After the primary in April when Democratic candidate Jon Ossoff received 48.1% of the vote, only 1.9% short of the majority that would have gained him the seat then and there, everyone knew this would be a tight race.</p> 
+			<p>That uncertainty in the Republican party and the glimmer of hope in the Democratic party may have been what caused this to be the most expensive House race in U.S. History. <a href="http://politics.blog.myajc.com/2017/06/19/the-race-for-georgias-6th-district-now-costs-more-than-50m/">At least $50 million</a> was spent funding this race, and Jon Ossoff is estimated to have received almost $8 million more in funding. Despite the Democrat’s spending, Ossoff lost by about 3.8%, and both candidates gave speeches that night.</p>
+			<img src='assets/article1b.png'>
+			<br><small>Courtesy of: CNN</small>
+			<p>In her <a href="https://www.youtube.com/watch?v=EVSUUfLIcTk">victory speech</a>, Handel began by thanking GOP leaders and some of her Republican opponents from the primary who went on to support her campaign. She thanked President Trump, which surprised many people due to the distance she seemed to keep from his support during the election; that distance was likely due to the narrow margin by which Trump won Georgia’s 6th District, as well as President Trump’s low overall approval ratings. Her final thank you to a politician went to House Majority Whip Steve Scalise, and she took a moment to reflect on the Congressional baseball field shooting and encourage more civil political discourse. She wished her opponent, Jon Ossoff, well, and ensured his supporters that she would listen to them, before going over some of her main campaign promises, including improving health care and creating more jobs. Towards the end of her speech, Handel remarked upon the importance of her win due to her being the first female Republican Representative for Georgia.</p>
+			<img src='assets/article1c.jpg'>
+			<br><small>Courtesy of: CNN</small>
+			<p>	Jon Ossoff maintained a positive tone in his <a href='https://www.youtube.com/watch?v=EVSUUfLIcTk'>concession speech</a>, despite the boos at the mention of Karen Handel’s name, and celebrated the accomplishments of his supporters in such a typically conservative area. Ossoff also commented on how much the nation focused on Georgia’s 6th District during the weeks leading up to the election, and congratulated the community for rejecting the division and negativity of national politics.
+			</p><img src='assets/article1a.jpg'><br><small>Courtesy Of: Suntimes</small>
+			<p>Although the special election in Georgia received a great deal of coverage and is the most expensive House race in history, at this time a total of <a href="https://www.nytimes.com/interactive/2017/us/elections/election-calendar.html">7 special elections</a> have been scheduled for 2017. The elections in Georgia, Kansas, Montana, South Carolina, and California have already occurred, with Republicans winning in each except for California, and elections in Alabama and Utah are scheduled for later in the year. Many Democrats have been disappointed by their failure to gain more seats, including in Montana where the incumbent Greg Gianforte won despite <a href="http://www.cnn.com/2017/06/12/politics/greg-gianforte-assault-plea/index.html">allegedly assaulting a reporter</a>, but Republicans have not gained any more seats. If the political climate remains as contentious as it has been during the 2016 presidential election and subsequent special elections, the 2018 midterms will be a difficult time for both politicians and voters.</p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article1.js"></script>
+</body>
+</html> 

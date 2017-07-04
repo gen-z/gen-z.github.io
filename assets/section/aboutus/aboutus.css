@@ -1,0 +1,146 @@
+body {
+	background-color:black;
+	text-align: center;
+	color:white;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+nav {
+	font-size: 25px;
+	background: black;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	top: 0;
+}
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 0 30px 0 30px;
+}
+nav ul a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul a:hover {
+	text-decoration-line: underline;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 80px;
+}
+p {
+	font-size: 40px;
+}
+
+.profpic {
+	width: 100px;
+	padding: 10px;
+	opacity: 0.5;
+	border-radius: 500px;
+}
+
+#founderbio {
+	background-color:white;
+	text-align: left;
+	color: black;
+}
+#founderpic {
+	width:100px;
+	float:right;
+	padding: 10px;
+}
+#foundertext {
+	font-size: 30px;
+}
+
+.writerpics {
+	width: 100px;
+	padding: 10px;
+	opacity: 0.5;
+	border-radius: 500px;
+}
+#writer1 {
+	opacity: 1;
+}
+#writers {
+	max-width: 200px;
+	max-height: 450px;
+	overflow-x: scroll;
+	padding-left: 0;
+	float: right;
+}
+#writers ul li{
+	list-style-type: none;
+	display: inline;
+}
+#writerdescription {
+	background: white;
+	color: black;
+	text-align: left;
+	padding:0;
+	width: 700px;
+	height: 450px;
+	float: left;
+}
+#writerdescription img {
+	height: 200px;	
+	float: right;
+	padding: 20px;
+}
+#writername {
+	text-align: center;
+	margin: 0;
+}
+#writertext {
+	font-size: 20px;
+	padding-left: 20px;
+}
+#writersAll {
+	width: 900px;
+	margin: 0 auto;
+	
+}
+#writersAll ::-webkit-scrollbar {
+	background: black;
+}
+#writersAll ::-webkit-scrollbar-thumb {
+	background: grey;
+}
+#writersAll ::-webkit-scrollbar-corner {
+	background: black;
+}
+
+#writerdescriptionFO {
+	background: white;
+	color: black;
+	text-align: left;
+	margin: 0 auto;
+	padding:0;
+	width: 900px;
+	height: 350px;
+}
+#writerdescriptionFO img {
+	height: 200px;	
+	float: right;
+	padding: 20px;
+}
+#writernameFO {
+	text-align: center;
+	margin: 0;
+}
+#writertextFO {
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+#kevin {
+	opacity: 1;
+}

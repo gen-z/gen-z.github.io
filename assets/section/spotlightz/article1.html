@@ -1,0 +1,68 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article1.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">SpotlightZ/#SaveTheWorld</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>Mateusz Mach: The Story of One Amazing Polish Teen<br><img src="assets/magdaw.png"><small> Magda Wojtara</small></p>
+		</div>
+		<div id="writing">
+			<p>As a fellow Polish person it is not often that Polish contributions to society are in the mainstream media and even rarer when those contributions are made by people of our age group. Enter Mateusz Mach the Polish teen responsible for creating the app “Five.” His is an exception as he has been featured in: History Now, Forbes, Tech Crunch and Business Insider. Yet, there aren’t many teens that know of him regardless of his media coverage.</p>
+			<img src='assets/article1b.png'><br><small>Mateusz Mach Posing with his app: Five </small>
+			<p>Mach states openly in interviews that he was influenced greatly by hip-hop culture. Initially, he set out to create an app where cool hand signals, much like those in hip-hop videos, could be used to communicate. It was only later that he realized he could target a huge (and largely ignored) demographic.  His app is one where American Sign Language (ASL) speakers are able to send sign language messages to each other. ASL consists of hand signals used to communicate in lieu of words. </p>
+			<p>	The app allowed deaf people to communicate with ASL in a messaging application. According to Cindy Chen, a deaf occupational therapist Mach had spoken with, “Up to 80 percent of deaf people have problems with reading and writing messages.” This demonstrates that there was a huge need for an app like Five for the ASL community.  Five is the first of its kind in this respect. </p>
+			<p>	Mach’s experience wasn’t just a eureka moment, however, as he still had to find investors willing to bring this dream into reality. Again, as an avid fan of hip-hop culture Mach showed up to these meetings dressed as he usually was: hoodie, hat and all. Many investors respected this and decided to help him with the app. He finally got $150,000 in funding which was especially difficult in Poland where it is hard to receive venture capital funding. That is because funds are often tied up in nationalized funds from the European Union (EU). This makes the accomplishment even greater.</p><img src='assets/article1a.png'><br><small>Taken from a #CEEexchange talk given by Mach about his app. </small>
+			<p>Mach plans to expand Five to Polish Sign Language and possibly other sign languages in the future as his company grows. He is an International Baccalaureate graduate and will be attending New York University-Abu Dhabi as an economics major. </p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article1.js"></script>
+</body>
+</html> 
