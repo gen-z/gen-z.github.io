@@ -47,7 +47,7 @@ body {
 	background: -moz-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 #carousel {
-	background-image: url("http://img.huffingtonpost.com/asset/scalefit_720_noupscale/58c82f8f1d000037037ce5f9.jpeg");
+	background-image: url("section/spotlightz/assets/article1b.png");
 	background-size: cover;
 }
 #carousel a {
