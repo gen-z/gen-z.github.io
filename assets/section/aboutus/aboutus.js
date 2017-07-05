@@ -69,7 +69,7 @@ $("#writer7").click( function(){
 $("#writer8").click( function(){
 	$(".writerpics").css("opacity","0.5");
 	$(this).css("opacity","1.0");
-	$("#writername").html("Jude Batoon");	$("#writerpic").attr("src","https://cdn.pixabay.com/photo/2016/12/07/17/00/contact-1889865_960_720.png");
+	$("#writername").html("Jude Batoon");	$("#writerpic").attr("src","judeb.jpeg");
 	$("#writertext").html("My name is Jude Conrad Batoon and I am a rising senior as part of the Class of 2018 at West Windsor Plainsboro High School North at Plainsboro, NJ. A few facts about me are that I am a three-season varsity athlete involved in football & throwing for winter and spring track, Treasurer for my school’s Student Council, a lifeguard & Water Safety Instructor, and a Peer Leader for my school. As you can tell, it's not easy to pigeonhole me, many of us do not fit neatly into any one category. That has been my goal throughout high school, to be hard to define, to be hard to stereotype, to be hard to put into a box, and I hope to carry it with me throughout my life.  Although I am multifaceted, journalist is not on that list, I decided to join GenZ to branch out and test out new experiences, to further my diversity of skills, and I hope that I can interact with many people from GenZ to learn and discuss about topics and unique point of views.");
 });
 $("#writer9").click( function(){
