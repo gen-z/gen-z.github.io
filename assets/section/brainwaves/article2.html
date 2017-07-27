@@ -1,0 +1,78 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article2.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutus/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+	<h1 id="genre">Brainwaves/#MyID</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>The Right to Be Remembered<br><img src="assets/micahm.jpg"><small>Micah Williams</small></p>
+		</div>
+		<div id="writing">
+			<p>We the people perceive Life as one, continuous story. The past has already been calligraphed, dried as blood or ink, while the future forever shifts near us like a tentative itinerary. Humanity’s hope is each one of us holds a pen to write our own present. For some reason, in a world where Life will never even look back upon our gravestones, we believe that everyone has the right to pen their own destiny.  
+            <br>In this giant book of Life, we believe each person is a chapter: automatic autobiographies created by our actions, hobbies, and relationships. Think of it as a Bible, but God absent at the helm. For in the beginning, there was this blank book that had enough knowledge to consider each human another author to add to its contributors. As the people grew and diversified among the world, so did the story. Later in the centuries, we would call this story History. 
+
+            <br>History would be taught around the world as if it were religion. As if we could worship and pray to it and perhaps earn its grace to enter its heaven. The heaven of history lies in the monuments, the awards, and all the things dedicated to the influential (from Vanderbilt University to Washington D.C. to the American supercontinent). Too many to count. Meanwhile, in history’s hell, only the worst are remembered. The rest are merely forgotten, or unwritten if we still speak in romantic terms. So many people are unwritten that words make it even more underwhelming. 
+            <br>But wait, I thought we had the right to write our own destinies. I was taught that we made History, and that we all had a part in it. If we all have a part in it, how can we be forgotten?
+            <br>And so here is where romance ends, and where reality begins.
+                <br>Life is a yearbook. For now, it is immortal. In it, History is extremely limited. </p><br><br>
+            <img src='assets/article2a.jpg'>
+            <p>Those who Life remembers earn a plot to sign their name somewhere in the back, and if lucky, inside the front cover. Those who made history get a inch-long photo and their name typed to the side with other related innovators. Those who let Life make them linger for a while like temporary Sharpie, later wiped out by names more important. And those who Life hates are simply crossed out. The rest never had the opportunity to even touch the yearbook, but still we treat it as gospel. Most of us allow ourselves to give our all into Life, with the very small chance Life will give back to us. 
+<br>I guess that is respectable in some form or fashion. Most of us take JFK’s declaration to heart, “Ask what you can do for you country,” and pertain to Life itself. We encourage ourselves, whether in peace or strife, that our actions as the unwritten make a difference to the yearbook of Life. Many of us want to be remembered as we were taught we should be; so, perhaps we can press a dot into the page, or prevent it from wrinkling or tearing. We smile and walk along and honor those who’ve received remembrance. We live. We die. We are forgotten as Life strolls mercilessly along.
+<img src='assets/article2c.jpg'>
+<br>However, I am too independent to have Life write out my destiny. I don’t want to be forgotten, but my heart shrivels at the thought of Life permitting me to sign my name in its pages. 
+And if we are speaking realistically, Life could be just a manmade concept of time. It is the “what’s been, what’s now, what’s going to be” that a few of humanity determined to be concrete long ago. Maybe even we all made the decision unanimously when we decided to worship History. Or otherworldly powers gave us Life, the gift that made us equals, and we turned it into a hierarchy. I don’t know what went wrong, but I know I don’t want to be forgotten. 
+<br>As a participant of Life, I will sign my own name into Its novel, yearbook, whatever. Even if Life was a giant cliff, I will carve my story into the stone to prove I was here. I lived and made differences, and so be it if I didn’t affect the entire world. I affected something, and that reason should be more than enough.
+And as I sign, I’ll call you to come quickly with your all-important pen. Life is too short to wait for remembrance. You deserve the right to be remembered, too.  
+</p>
+		</div>
+	</div> 
+    
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+        	
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article2.js"></script>
+</body>
+</html> 
