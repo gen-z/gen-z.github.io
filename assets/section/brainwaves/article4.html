@@ -1,0 +1,72 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<title> GEN Z </title>
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Dancing+Script|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+	<link href="article4.css" rel="stylesheet">
+<body>
+	<nav>
+		<ul>
+			<li><a href="https://gen-z.github.io/">Gen Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/news/news.html">News</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/politics/politics.html">Politics</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/culture/culture.html">Culture</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/techandsci/techandsci.html">Tech and Science</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/brainwaves/brainwaves.html">Brain Waves</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/spotlightz/spotlightz.html">Spotlight Z</a></li>
+			<li><a href="https://gen-z.github.io/assets/section/aboutus/aboutUs.html">About Us</a></li>
+		</ul>
+	</nav>
+
+
+
+	<h1 id="genre">News/#China</h1>
+	<div id = "article">
+		<div id="title">
+			<p><br><br>Chinese grad student kidnapped believed dead<br><img src="http://slodive.com/wp-content/uploads/2012/03/hairstyles-for-square-faces/future-memories.jpg"><small> Kevin Calderon</small></p>
+		</div>
+		<div id="writing">
+			<p>	The ongoing investigation of Chinese grad student Yingying Zhang’s disappearance <br> continues as the suspected kidnapper, Brendt Christensen, has been arrested and <br> taken in for questioning by the FBI..</p>
+			<p>	According to authorities, the FBI no longer believe Zhang is alive based on a confession <br> by the suspect while he was under surveillance last Thursday, in which Christensen <br> described how he kidnapped Zhang.</p>
+			<p>	Christensen is a grad student of the University of Illinois, the same school that Zhang<br>was last seen at. According to a UI Professor, Christensen had no previous educational<br> or behavioral issues and had been a teaching  assistant in the physics department until <br>this past May.</p><br>
+			<p>	During earlier stages of the investigation, FBI agents and police officers obtained a<br>warrant to search Christensen’s vehicle, which matched the one shown in street<br>security footage. At the same time, the authorities interviewed Christensen at the<br>bureau’s Champaign office.<br>While conducting the interview, the suspect admitted to picking Zhang up at the place<br>shown in the security footage, but claimed to have dropped her after driving a few<br>blocks. Another occupant of Christensen’s residence consented to a search and seizure<br>of the residence, during which the investigators found the suspect’s phone was<br>collected.<br>Upon searching the cellphone, investigators found that Christensen had visited a fetish<br>website with articles titled “Abduction 101” and “planning a kidnapping.”<br>Christensen made his first appearance at the federal courthouse in Urbana, Illinois on<br>Monday the 3rd. During his entire  nine-minute appearance, the accused remained<br>nearly silent and did not enter any plea.</p>
+			<p>Students and professors at UI, as well as sympathetic strangers, held a rally for<br>Yingying Zhang’s family. Oddly enough, Brendt Christensen attended the rally for his<br>victim, as shown in a photo taken from CNN.<br>The day following the rally, Christensen, who had already been under surveillance for<br>several weeks, was arrested.<br>
+			Christensen now faces a federal kidnapping charge, and, if convicted, could be<br>sentenced to life in prison. According to the suspect’s lawyer, Christensen has no<br>criminal history and it is unknown whether he will declare his innocence or not.<br>There are conflicting opinions from China, particularly the many students from the<br>country who travel to the United States to attend school. While many are concerned<br>about Zhang’s disappearance, many others are still unshaken, citing China’s own high<br>rate of violent crimes.<br>Members of Zhang’s family who had travelled to the States to assist in the search for<br>her have been informed of Christensen’s arrest.</p>
+		</div>	</div>
+
+
+
+	<div id= "chatroom">
+		<h1>Discussion</h1>
+        <h2>Share Your Thoughts</h2>
+    	<div id= "messageBox">
+
+    	</div>
+		<div id = 'input'>
+        	<h4>
+				<input placeholder='Name' type='text' id='name'>
+				<br><br><textarea placeholder='Comment' type="text" id= "messages" ></textarea><br>
+				<button id = "js">Send</button>
+			</h4>
+        </div>
+	</div>
+		<!--Calling Javascript-->
+		<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+			apiKey: "AIzaSyB_xcVo6ZLhfllTD5CuIJfEKT9V56sIQG0",
+			authDomain: "chat-room-63fd9.firebaseapp.com",
+			databaseURL: "https://chat-room-63fd9.firebaseio.com",
+			storageBucket: "chat-room-63fd9.appspot.com",
+		  };
+		  firebase.initializeApp(config);
+		</script>
+		<!-- adding jQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<!-- script we'll make dynamic changes with. You'll have to create this file -->
+		<script src="article4.js"></script>
+</body>
+</html>
